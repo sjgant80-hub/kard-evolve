@@ -4,6 +4,9 @@
   "description": "Creatures that evolve, measurably: readers of damaged FallKard seal codes, bred, battled and selected against real model misreads, re-runnable to the byte.",
   "type": "module",
   "main": "evolve.mjs",
-  "scripts": { "test": "node --test" },
-  "license": "MIT"
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "author": "sjgant80-hub <sjgant80@gmail.com>"
 }
