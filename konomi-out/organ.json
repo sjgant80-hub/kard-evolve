@@ -1,0 +1,30 @@
+{
+  "id": "kard-evolve",
+  "ring": "R6-resolution",
+  "mesh": "niceassos-mesh",
+  "konomified": null,
+  "proof": {
+    "benchmark": "assessor-v0.10",
+    "core": "10/10",
+    "hash": "21b6b626f017ecce1e459a0ce90c83ff"
+  },
+  "behaviour": {
+    "gate": "witness",
+    "clean": true,
+    "score": 1,
+    "source": "evolve.mjs",
+    "skipped": false
+  },
+  "basis": {
+    "compliance": {
+      "aiAct": "not engaged",
+      "gdpr": false,
+      "duties": 0,
+      "asOf": "2026-09-30"
+    },
+    "prices": {
+      "locked": 0,
+      "priced": 0
+    }
+  }
+}
