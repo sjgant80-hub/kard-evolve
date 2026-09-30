@@ -1,0 +1,35 @@
+name: proof-of-play
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: the creature kernel's tests
+        run: node --test evolve.test.mjs
+      # Pinned. An unpinned gate is a gate somebody else can change.
+      - name: witness — every mutant of the creature kernel must die
+        run: |
+          git clone --depth 1 --branch v0.6 https://github.com/sjgant80-hub/witness.git /tmp/witness
+          node /tmp/witness/witness.mjs mutate evolve.mjs --timeout 60000 --cap 400 --test node --test evolve.test.mjs | tee verdict.txt
+          grep -q '"clean": true' verdict.txt || { echo "::error::mutants survived — the gate is not clean"; exit 1; }
+      - name: the vendored sealmark is fallkard-forge's, byte for byte (d672d84)
+        run: echo "cc85abeaf67a3607d96698256c310ee6db329358bfab568da38439a7c77473de  vendor/sealmark.mjs" | sha256sum -c
+      - name: the seal is exactly what the committed inputs give
+        run: node tools/seal.mjs --check
+      - name: the evolution re-runs from the seal to the byte
+        run: if [ -f data/run.json ]; then node tools/evolve.mjs --verify; else echo "sealed, not yet run"; fi
+      - name: the pilot re-runs to its committed result
+        run: node tools/pilot.mjs --check
+      - name: page fixpoint — the live page IS the gated kernel and the real record
+        run: |
+          node tools/make-page.mjs
+          git diff --exit-code index.html README.md llms.txt
+      - name: the basis — no untraced price, and this repository's own current compliance map
+        run: |
+          git clone --quiet https://github.com/sjgant80-hub/fallstack /tmp/fallstack && git -C /tmp/fallstack checkout --quiet 4eeb828
+          git clone --quiet https://github.com/sjgant80-hub/fall-euaiact /tmp/fall-euaiact && git -C /tmp/fall-euaiact checkout --quiet d522314
+          node /tmp/fallstack/tools/price-check.mjs .
+          node /tmp/fall-euaiact/tools/comply-build.mjs . --check

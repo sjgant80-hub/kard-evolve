@@ -1,0 +1,1372 @@
+{
+ "kind": "kard-evolve-world",
+ "v": 1,
+ "source": {
+  "repo": "sjgant80-hub/fallkard-forge",
+  "commit": "d672d84c61c95abb3f304e22ddc381e2c6e61d04",
+  "files": {
+   "data/vision.json": "b1323fe7682cdc8a1dbded16222da272a30be6aedd836793d3e64e8560a95a82",
+   "data/vision/cards.json": "2e4732965ddd0e709970f3816a2207b7c07d4f5c2ea6068ab7a3fc745365882d",
+   "vision.mjs": "0c7d6d9be4489a1948821ef9ea0683d45a059484380dc893b90a8b8c97217435",
+   "sealmark.mjs": "cc85abeaf67a3607d96698256c310ee6db329358bfab568da38439a7c77473de"
+  },
+  "what": "the sealed paid read: claude-sonnet-5 shown only each card picture (full size, a JPEG 60 platform copy at 60%, and 35% size), its replies graded there 5 of 5"
+ },
+ "seals": [
+  "f8d27e518e014372b992965c3bd6d31c740fa68d377f1f0a3285b9353571e113",
+  "c06c75de0f40368633937b8cb859106c1544abdd866484adef7d3a463dbe1927",
+  "1b82ceb0774d83827fed569ca33f48bd8d46a6ac60d328ecc0e9e9afa14d5ce4",
+  "3723b6b5728b1d43376b1c41d32eb72ff94b4afd3840c90cec239e07001697bb",
+  "67881c2af377766b713b10def7ad40308b7b53fbbd264d5d06fd29995355fea8",
+  "c9d9c87046c213f84c533983464d3619ce40e50bffb66c265ab91a05db97e0c9",
+  "d07adb9d456cc8cb913e2dcf87e4cf8a542058ac37bd38a5ba0ca98c0c6b0b90",
+  "5427e5b8c1765f25e7b59f26a5c6a53b0777754a4fdf1cf7ef19e7842156c5fe",
+  "fabc5fae027cf8ef90d8b4331a7e8a0e967095998b76bb71ddbef86e5687689a",
+  "0021eb2a54e54eeed4185090c00e1b98871c587e4a7ecc9cd6b886ca9b3b2c00",
+  "cafe7f8d20e39864b572abc2761739fb9c2b1cd61f8c369dca07ea2f7d17e70f",
+  "e34894193f39140732e0a03b037a9a1869ceebf4348b0806a0b2f516f49ae217",
+  "9d52eff9c18605df073e889778958d44536cd2b31dbe9605c35ba1e605c62ead",
+  "051733f5d4a1a50d122a690f60fc7f07a0cad328f7d2bb3c6ca1e5ec49d55415",
+  "a785af0444371a2c5fad00a15e6cfc15088a6dcacc0ff816bb39fe8ab2983736",
+  "7d8ed8f8beb96c5650d2c5c473a46c1b216264a9baa978867f4c6d21d5000f74",
+  "07a2adb16eb36360d037f7e27a678bde21ab189a279bc344abc44de46ca66963",
+  "e4067363fb6bc888c5d04917a032e4475797d5e89d5f3e6c60e3d5b2bdfc6f46",
+  "1241457c95f9de2c67ab5e50e70bf14c9ab04af2487210390fa27b3be05872b7",
+  "8725fb3356e78e21fc38870d757dc2439897a695fb893dc56792dff66f3788bf",
+  "b64de56c53db915a873f281fa66318df116a0b25161f2ba01e9069954d51fe6a",
+  "d8131e07e5797356c220e7e61314437866ef1cf5bc794257383c003fe4e6ceda",
+  "a01e088ee91df23905e0f3e41f4a3552805568ba94aa81630a9ef79c47848ba8",
+  "fffbb4805360f5b4079ba3b4ee34c6edd1ee57aeb39d78bb9439de310cf3b7cd",
+  "a8d66f952bb6dd827bba0bc6a4f8d05b1a9152bc23581553b4839bbc28c276a8",
+  "669fe4c426f7da96812c70a169e2e075dbc0b84fd5722d5791a2a45f3d75f8d9",
+  "ae8018613120e71e4b79de56cd251b84e8a1e820ffa64da1042030124110e280",
+  "4a007d6d414beea283bac22cb3a10627c243aa430ceebcf0cf819cf464a172d7",
+  "a24e495beedf5a48f913f2fad3790acc975fdc9b92d489b77796984059b49633",
+  "2bd02a4cee3320ca8e5fed3999c9105e024aecaac50eebe07b07e824bad1cb26",
+  "dcc4370b34144a462abcf33eddb5d5a5e82ecd0acb1f2d61046e0a7ce38c651a",
+  "fcee5784baef9cfeb048e15e74425e1b783518284d5274a52c18ec45b418b6b5",
+  "6773cfd2a9f090d8feb44f42e42c26f14ed003f41e88c4f60ff45c342bff1368",
+  "07c3607d7721a4c96e7d362ce48431ea06519dd9d0942aa68ed87ab2a9048e02",
+  "7fab9c86e4ccb9dfd6ed1885c99b1f7f8e8b1ab3940f89cf76e80e786c49c437",
+  "6e936c262ba36fef9cb961a3ddd4885eaad537da4ebc6d56582a0002b36ddb47",
+  "9aedb22a37514324c356a3b8ddfe48fd48a725ec97bac8b5aa46d06600ca47fc",
+  "c9057698690f8c260ae48886da7f9f64887bf126cc260c4edf114181f2dbf048",
+  "c3001ece7d517b63f97dede877e65c73cad37cae5d2bccbf7dead78c60423260",
+  "7d62109a78eee9f6713e8af7c89317eb4f99a14fc86754de030cc96dc6e2dc19",
+  "c24a53010a021db151e52182837184ee6a5a21a391b1901d3a65a671317be676",
+  "7c0fc1e5862c49b56bd1082752ea33e94ea004b03f635337ff5927fd559788a7",
+  "09c4ed07a098aaef4042bab80865bf4e2c71f845626f9738f252cd1d3c87d600",
+  "06031065b526da19fd8c874004ab5800e62862141257a0b64cb8f497af25492d",
+  "3db64d9e22cb2e3b645d04bff600967c20c542f0b3fc39807d84a4c7a2781026",
+  "89161a9187701295bea94637a4b13e2e6eb74558dc9534171d8a60577c69b80d",
+  "ef8abd8ab9145b211d3a31af544be472be2c2e361e9f869884ebd815a669aed7",
+  "e2b95bdc585a8705ddc32908007e86071ab74b86d18d29b8dc2b41ca3103ee9f",
+  "7c3a13a2017b14d186d392345255cbdb0a2cbe2e8e229e309465bcff49a0ac4e",
+  "a38cd01b5b525e52c0085ff685ff6dee9ff51bce226e74aa365988c9d3350a66",
+  "eb3edd846e02a79839f8d4fbebdfa2039aeba8d8d19be2365a1da4726d33ca97",
+  "7b42cbdf599c8e6d400370fbee2e30c88d12b98689f7bcba15c57139c9231260",
+  "d5cc95220e994f2bcfcb89fe58b4544956665445a1712ba725cc8ffe68407d7a",
+  "356edaddabd84784768b8139f1e31fb0fcfb5d24265682fdaa0f029dae7107d9",
+  "58899f6f8dc788d27034113db2ef0e24268fa97011449d5b1c2ed724b5568f9d",
+  "ce2d7c7cda6b9b95db410158f68b0ecb1b10df6191feab7a91ab6c68ec5702ae",
+  "6d4180db2a16ae97d011ff471956168e278f4b818471775d534e58093cf89a2e",
+  "20dd7b46be6f3d596995f690f306525d217fa510ce3e5affb82af3c7ee78044c",
+  "899e4f628596dd7e9545dd412c7c1fd38f36c4eee9444836ca038e3559bcaf46",
+  "398710292241c05a4e7939d1d190bcfb2a80a4e102444c17dc163c482bde080b",
+  "ca11d6e3c5d720cc2d272288fc91761d1a689225f39d5746382ad639d1ef3bb8",
+  "10e4425ba5d30cede8382d0a1ee7425e0e51b3ebed66ead3dc7489d092ea0165",
+  "30671b6ae72502ad34fac5731eb8a068814c39113fa18b123b8cf6bf99c124b5",
+  "32222167b3bc340893342934b80edcce000fc6cf5403a127607ef68b0251fbf6"
+ ],
+ "codes": [
+  "Z397-WMCE-051Q-5ECJ",
+  "R1P7-BQGF-80V8-CCWK",
+  "3E1C-XC3Q-9P1R-4ZZD",
+  "6WHV-DDBJ-HCEM-6DVB",
+  "CY41-RAQK-EXV6-PW9V",
+  "S7CW-GW26-R89Z-GK2K",
+  "T1XD-Q7A5-DK4C-Q49Y",
+  "AGKY-BE61-ESFJ-BSXN",
+  "ZAY5-ZBG2-FKWE-Z46R",
+  "00GY-PAJM-WN7E-XN0R",
+  "SBZ7-Z390-WEC6-9DBJ",
+  "WD49-869Z-74A0-ECQ0",
+  "KN9E-ZYE1-GR2X-Y1SY",
+  "0MBK-7XEM-M6JG-T4HA",
+  "MY2T-Y124-6WD2-RQXD",
+  "FP7D-HY5Y-Q5P5-CM6J",
+  "0YHA-VCBE-PDHP-1M1Q",
+  "WG37-6RZV-DF48-HHEG",
+  "290M-AZ4N-Z7F2-RSXB",
+  "GWJZ-PCTP-WY72-3Z1R",
+  "PS6Y-AV2K-VE8N-N1SZ",
+  "V09H-W1Z5-F5SN-DGH0",
+  "M0F0-H3Q9-3QS3-J1F0",
+  "ZZXV-902K-C3TV-81WV",
+  "N3B6-Z59B-PVER-4YXT",
+  "CTFY-9H16-YZD9-D09C",
+  "NT01-GR9H-43KH-WJVS",
+  "9807-TVA1-9FQA-50XT",
+  "M974-JPZE-VXD4-HY8K",
+  "5F82-MK7E-6CGC-N3JZ",
+  "VK23-E2SM-2H54-CANW",
+  "ZKQ5-F15T-XYEF-XC28",
+  "CXSW-ZMN9-Y28D-HZNM",
+  "0Z1P-0ZBQ-46JC-JVKX",
+  "FYNS-S1Q4-SJWX-ZNQD",
+  "DT9P-R9HB-MDQY-Z75S",
+  "KBPV-4AHQ-A51J-9GTP",
+  "S42Q-D639-1Y62-C2Q4",
+  "RC01-XKKX-A5XP-7YBX",
+  "FNH1-16KR-XVMZ-CW9Y",
+  "R955-608A-08EV-2MF5",
+  "FG7W-3SC6-5H4V-ATYH",
+  "172E-T1X0-K2NE-YG22",
+  "0R1H-0SDN-4VD1-KZCC",
+  "7PV4-V7H2-SCQ3-PS2X",
+  "H4B1-N4C7-E099-BFN9",
+  "XY5B-V2NS-2HDJ-279T",
+  "WAWN-QQ2R-BA3G-BQE3",
+  "FGX1-78G1-FCAD-31PK",
+  "ME6D-06TV-A9F5-5G08",
+  "XCZD-V13E-0AKS-GEFR",
+  "FD1C-QQTS-KJ76-TG03",
+  "TQ69-A8GE-K57J-QKYB",
+  "6NQD-NQDB-V13R-8XMB",
+  "B24S-YVWD-RY4D-4W1M",
+  "SRPQ-RZ6T-DEDS-BPT1",
+  "DN0R-1PSA-2TQ9-FM0H",
+  "43EQ-PHNY-DWYN-JTCN",
+  "H6F4-YRM5-JVEQ-X5A5",
+  "763H-0A92-8705-MKKS",
+  "S88X-DRY5-TWGC-RB97",
+  "23J4-4PX5-TC6E-VT1R",
+  "61KH-PTQ7-4M1A-TD7T",
+  "68H2-2SXK-QGT0-H4SM"
+ ],
+ "split": {
+  "train": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31
+  ],
+  "held": [
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   48,
+   49,
+   50,
+   51,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   63
+  ],
+  "why": "the first 32 cards in forging order train, the last 32 are held out — the natural halves; before choosing, Kar checked that each half holds real V-read-as-U misreads (5 and 2), because the sealed claim is about them"
+ },
+ "real": [
+  {
+   "card": 0,
+   "condition": "full",
+   "reply": "Z397-WMCE-051Q-5ECJ",
+   "read": "Z397-WMCE-051Q-5ECJ"
+  },
+  {
+   "card": 1,
+   "condition": "full",
+   "reply": "R1P7-BQGF-80V8-CCWK",
+   "read": "R1P7-BQGF-80V8-CCWK"
+  },
+  {
+   "card": 2,
+   "condition": "full",
+   "reply": "3E1C-XC3Q-9P1R-4ZZD",
+   "read": "3E1C-XC3Q-9P1R-4ZZD"
+  },
+  {
+   "card": 3,
+   "condition": "full",
+   "reply": "6WHV-DDBJ-HCEM-6DVB",
+   "read": "6WHV-DDBJ-HCEM-6DVB"
+  },
+  {
+   "card": 4,
+   "condition": "full",
+   "reply": "CY41-RAQK-EXV6-PW9V",
+   "read": "CY41-RAQK-EXV6-PW9V"
+  },
+  {
+   "card": 5,
+   "condition": "full",
+   "reply": "S7CW-GW26-R89Z-GK2K",
+   "read": "S7CW-GW26-R89Z-GK2K"
+  },
+  {
+   "card": 6,
+   "condition": "full",
+   "reply": "T1XD-Q7A5-DK4C-Q49Y",
+   "read": "T1XD-Q7A5-DK4C-Q49Y"
+  },
+  {
+   "card": 7,
+   "condition": "full",
+   "reply": "AGKY-BE61-ESFJ-BSXN",
+   "read": "AGKY-BE61-ESFJ-BSXN"
+  },
+  {
+   "card": 8,
+   "condition": "full",
+   "reply": "ZAY5-ZBG2-FKWE-Z46R",
+   "read": "ZAY5-ZBG2-FKWE-Z46R"
+  },
+  {
+   "card": 9,
+   "condition": "full",
+   "reply": "00GY-PAJM-WN7E-XN0R",
+   "read": "00GY-PAJM-WN7E-XN0R"
+  },
+  {
+   "card": 10,
+   "condition": "full",
+   "reply": "SBZ7-Z390-WEC6-9DBJ",
+   "read": "SBZ7-Z390-WEC6-9DBJ"
+  },
+  {
+   "card": 11,
+   "condition": "full",
+   "reply": "WD49-869Z-74A0-ECQ0",
+   "read": "WD49-869Z-74A0-ECQ0"
+  },
+  {
+   "card": 12,
+   "condition": "full",
+   "reply": "KN9E-ZYE1-GR2X-Y1SY",
+   "read": "KN9E-ZYE1-GR2X-Y1SY"
+  },
+  {
+   "card": 13,
+   "condition": "full",
+   "reply": "0MBK-7XEM-M6JG-T4HA",
+   "read": "0MBK-7XEM-M6JG-T4HA"
+  },
+  {
+   "card": 14,
+   "condition": "full",
+   "reply": "MY2T-Y124-6WD2-RQXD",
+   "read": "MY2T-Y124-6WD2-RQXD"
+  },
+  {
+   "card": 15,
+   "condition": "full",
+   "reply": "FP7D-HY5Y-Q5P5-CM6J",
+   "read": "FP7D-HY5Y-Q5P5-CM6J"
+  },
+  {
+   "card": 16,
+   "condition": "full",
+   "reply": "0YHA-VCBE-PDHP-1M1Q",
+   "read": "0YHA-VCBE-PDHP-1M1Q"
+  },
+  {
+   "card": 17,
+   "condition": "full",
+   "reply": "WG37-6RZV-DF48-HHEG",
+   "read": "WG37-6RZV-DF48-HHEG"
+  },
+  {
+   "card": 18,
+   "condition": "full",
+   "reply": "290M-AZ4N-Z7F2-RSXB",
+   "read": "290M-AZ4N-Z7F2-RSXB"
+  },
+  {
+   "card": 19,
+   "condition": "full",
+   "reply": "GWJZ-PCTP-WY72-3Z1R",
+   "read": "GWJZ-PCTP-WY72-3Z1R"
+  },
+  {
+   "card": 20,
+   "condition": "full",
+   "reply": "PS6Y-AV2K-VE8N-N1SZ",
+   "read": "PS6Y-AV2K-VE8N-N1SZ"
+  },
+  {
+   "card": 21,
+   "condition": "full",
+   "reply": "V09H-W1Z5-F5SN-DGH0",
+   "read": "V09H-W1Z5-F5SN-DGH0"
+  },
+  {
+   "card": 22,
+   "condition": "full",
+   "reply": "M0F0-H3Q9-3QS3-J1F0",
+   "read": "M0F0-H3Q9-3QS3-J1F0"
+  },
+  {
+   "card": 23,
+   "condition": "full",
+   "reply": "ZZXV-902K-C3TV-81WV",
+   "read": "ZZXV-902K-C3TV-81WV"
+  },
+  {
+   "card": 24,
+   "condition": "full",
+   "reply": "N3B6-Z59B-PVER-4YXT",
+   "read": "N3B6-Z59B-PVER-4YXT"
+  },
+  {
+   "card": 25,
+   "condition": "full",
+   "reply": "CTFY-9H16-YZD9-D09C",
+   "read": "CTFY-9H16-YZD9-D09C"
+  },
+  {
+   "card": 26,
+   "condition": "full",
+   "reply": "NT01-GR9H-43KH-WJVS",
+   "read": "NT01-GR9H-43KH-WJVS"
+  },
+  {
+   "card": 27,
+   "condition": "full",
+   "reply": "9807-TVA1-9FQA-50XT",
+   "read": "9807-TVA1-9FQA-50XT"
+  },
+  {
+   "card": 28,
+   "condition": "full",
+   "reply": "M974-JPZE-VXD4-HY8K",
+   "read": "M974-JPZE-VXD4-HY8K"
+  },
+  {
+   "card": 29,
+   "condition": "full",
+   "reply": "5F82-MK7E-6CGC-N3JZ",
+   "read": "5F82-MK7E-6CGC-N3JZ"
+  },
+  {
+   "card": 30,
+   "condition": "full",
+   "reply": "VK23-E2SM-2H54-CANW",
+   "read": "VK23-E2SM-2H54-CANW"
+  },
+  {
+   "card": 31,
+   "condition": "full",
+   "reply": "ZKQ5-F15T-XYEF-XC28",
+   "read": "ZKQ5-F15T-XYEF-XC28"
+  },
+  {
+   "card": 32,
+   "condition": "full",
+   "reply": "CXSW-ZMN9-Y28D-HZNM",
+   "read": "CXSW-ZMN9-Y28D-HZNM"
+  },
+  {
+   "card": 33,
+   "condition": "full",
+   "reply": "0Z1P-0ZBQ-46JC-JVKX",
+   "read": "0Z1P-0ZBQ-46JC-JVKX"
+  },
+  {
+   "card": 34,
+   "condition": "full",
+   "reply": "FYNS-S1Q4-SJWX-ZNQD",
+   "read": "FYNS-S1Q4-SJWX-ZNQD"
+  },
+  {
+   "card": 35,
+   "condition": "full",
+   "reply": "DT9P-R9HB-MDQY-Z75S",
+   "read": "DT9P-R9HB-MDQY-Z75S"
+  },
+  {
+   "card": 36,
+   "condition": "full",
+   "reply": "KBPV-4AHQ-A51J-9GTP",
+   "read": "KBPV-4AHQ-A51J-9GTP"
+  },
+  {
+   "card": 37,
+   "condition": "full",
+   "reply": "S42Q-D639-1Y62-C2Q4",
+   "read": "S42Q-D639-1Y62-C2Q4"
+  },
+  {
+   "card": 38,
+   "condition": "full",
+   "reply": "RC01-XKKX-A5XP-7YBX",
+   "read": "RC01-XKKX-A5XP-7YBX"
+  },
+  {
+   "card": 39,
+   "condition": "full",
+   "reply": "FNH1-16KR-XVMZ-CW9Y",
+   "read": "FNH1-16KR-XVMZ-CW9Y"
+  },
+  {
+   "card": 40,
+   "condition": "full",
+   "reply": "R955-608A-08EV-2MF5",
+   "read": "R955-608A-08EV-2MF5"
+  },
+  {
+   "card": 41,
+   "condition": "full",
+   "reply": "FG7W-3SC6-5H4V-ATYH",
+   "read": "FG7W-3SC6-5H4V-ATYH"
+  },
+  {
+   "card": 42,
+   "condition": "full",
+   "reply": "172E-T1X0-K2NE-YG22",
+   "read": "172E-T1X0-K2NE-YG22"
+  },
+  {
+   "card": 43,
+   "condition": "full",
+   "reply": "0R1H-0SDN-4VD1-KZCC",
+   "read": "0R1H-0SDN-4VD1-KZCC"
+  },
+  {
+   "card": 44,
+   "condition": "full",
+   "reply": "7PV4-V7H2-SCQ3-PS2X",
+   "read": "7PV4-V7H2-SCQ3-PS2X"
+  },
+  {
+   "card": 45,
+   "condition": "full",
+   "reply": "H4B1-N4C7-E099-BFN9",
+   "read": "H4B1-N4C7-E099-BFN9"
+  },
+  {
+   "card": 46,
+   "condition": "full",
+   "reply": "XY5B-V2NS-2HDJ-279T",
+   "read": "XY5B-V2NS-2HDJ-279T"
+  },
+  {
+   "card": 47,
+   "condition": "full",
+   "reply": "WAWN-QQ2R-BA3G-BQE3",
+   "read": "WAWN-QQ2R-BA3G-BQE3"
+  },
+  {
+   "card": 48,
+   "condition": "full",
+   "reply": "FGX1-78G1-FCAD-31PK",
+   "read": "FGX1-78G1-FCAD-31PK"
+  },
+  {
+   "card": 49,
+   "condition": "full",
+   "reply": "ME6D-06TV-A9F5-5G08",
+   "read": "ME6D-06TV-A9F5-5G08"
+  },
+  {
+   "card": 50,
+   "condition": "full",
+   "reply": "XCZD-V13E-0AKS-GEFR",
+   "read": "XCZD-V13E-0AKS-GEFR"
+  },
+  {
+   "card": 51,
+   "condition": "full",
+   "reply": "FD1C-QQTS-KJ76-TG03",
+   "read": "FD1C-QQTS-KJ76-TG03"
+  },
+  {
+   "card": 52,
+   "condition": "full",
+   "reply": "TQ69-A8GE-K57J-QKYB",
+   "read": "TQ69-A8GE-K57J-QKYB"
+  },
+  {
+   "card": 53,
+   "condition": "full",
+   "reply": "6NQD-NQDB-V13R-8XMB",
+   "read": "6NQD-NQDB-V13R-8XMB"
+  },
+  {
+   "card": 54,
+   "condition": "full",
+   "reply": "B24S-YVWD-RY4D-4W1M",
+   "read": "B24S-YVWD-RY4D-4W1M"
+  },
+  {
+   "card": 55,
+   "condition": "full",
+   "reply": "SRPQ-RZ6T-DEDS-BPT1",
+   "read": "SRPQ-RZ6T-DEDS-BPT1"
+  },
+  {
+   "card": 56,
+   "condition": "full",
+   "reply": "DN0R-1PSA-2TQ9-FM0H",
+   "read": "DN0R-1PSA-2TQ9-FM0H"
+  },
+  {
+   "card": 57,
+   "condition": "full",
+   "reply": "43EQ-PHNY-DWYN-JTCN",
+   "read": "43EQ-PHNY-DWYN-JTCN"
+  },
+  {
+   "card": 58,
+   "condition": "full",
+   "reply": "H6F4-YRM5-JVEQ-X5A5",
+   "read": "H6F4-YRM5-JVEQ-X5A5"
+  },
+  {
+   "card": 59,
+   "condition": "full",
+   "reply": "763H-0A92-8705-MKKS",
+   "read": "763H-0A92-8705-MKKS"
+  },
+  {
+   "card": 60,
+   "condition": "full",
+   "reply": "S88X-DRY5-TWGC-RB97",
+   "read": "S88X-DRY5-TWGC-RB97"
+  },
+  {
+   "card": 61,
+   "condition": "full",
+   "reply": "23J4-4PX5-TC6E-VT1R",
+   "read": "23J4-4PX5-TC6E-VT1R"
+  },
+  {
+   "card": 62,
+   "condition": "full",
+   "reply": "61KH-PTQ7-4M1A-TD7T",
+   "read": "61KH-PTQ7-4M1A-TD7T"
+  },
+  {
+   "card": 63,
+   "condition": "full",
+   "reply": "68H2-2SXK-QGT0-H4SM",
+   "read": "68H2-2SXK-QGT0-H4SM"
+  },
+  {
+   "card": 0,
+   "condition": "jpeg60at60",
+   "reply": "Z397-WMCE-051Q-5ECJ",
+   "read": "Z397-WMCE-051Q-5ECJ"
+  },
+  {
+   "card": 1,
+   "condition": "jpeg60at60",
+   "reply": "R1P7-BQGF-80V8-CCWK",
+   "read": "R1P7-BQGF-80V8-CCWK"
+  },
+  {
+   "card": 2,
+   "condition": "jpeg60at60",
+   "reply": "3E1C-XC3Q-9P1R-4ZZD",
+   "read": "3E1C-XC3Q-9P1R-4ZZD"
+  },
+  {
+   "card": 3,
+   "condition": "jpeg60at60",
+   "reply": "6WHV-DDBJ-HCEM-6DVB",
+   "read": "6WHV-DDBJ-HCEM-6DVB"
+  },
+  {
+   "card": 4,
+   "condition": "jpeg60at60",
+   "reply": "CY41-RAQK-EXV6-PW9V",
+   "read": "CY41-RAQK-EXV6-PW9V"
+  },
+  {
+   "card": 5,
+   "condition": "jpeg60at60",
+   "reply": "S7CW-GW26-R89Z-GK2K",
+   "read": "S7CW-GW26-R89Z-GK2K"
+  },
+  {
+   "card": 6,
+   "condition": "jpeg60at60",
+   "reply": "T1XD-Q7A5-DK4C-Q49Y",
+   "read": "T1XD-Q7A5-DK4C-Q49Y"
+  },
+  {
+   "card": 7,
+   "condition": "jpeg60at60",
+   "reply": "AGKY-BE61-ESFJ-BSXN",
+   "read": "AGKY-BE61-ESFJ-BSXN"
+  },
+  {
+   "card": 8,
+   "condition": "jpeg60at60",
+   "reply": "ZAY5-ZBG2-FKWE-Z46R",
+   "read": "ZAY5-ZBG2-FKWE-Z46R"
+  },
+  {
+   "card": 9,
+   "condition": "jpeg60at60",
+   "reply": "00GY-PAJM-WN7E-XN0R",
+   "read": "00GY-PAJM-WN7E-XN0R"
+  },
+  {
+   "card": 10,
+   "condition": "jpeg60at60",
+   "reply": "SBZ7-Z390-WEC6-9DBJ",
+   "read": "SBZ7-Z390-WEC6-9DBJ"
+  },
+  {
+   "card": 11,
+   "condition": "jpeg60at60",
+   "reply": "WD49-869Z-74A0-EC00",
+   "read": "WD49-869Z-74A0-EC00"
+  },
+  {
+   "card": 12,
+   "condition": "jpeg60at60",
+   "reply": "KN9E-ZYE1-GR2X-Y1SY",
+   "read": "KN9E-ZYE1-GR2X-Y1SY"
+  },
+  {
+   "card": 13,
+   "condition": "jpeg60at60",
+   "reply": "0MBK-7XEM-M6JG-T4HA",
+   "read": "0MBK-7XEM-M6JG-T4HA"
+  },
+  {
+   "card": 14,
+   "condition": "jpeg60at60",
+   "reply": "MY2T-Y124-6WD2-RQXD",
+   "read": "MY2T-Y124-6WD2-RQXD"
+  },
+  {
+   "card": 15,
+   "condition": "jpeg60at60",
+   "reply": "FP7D-HY5Y-Q5P5-CM6J",
+   "read": "FP7D-HY5Y-Q5P5-CM6J"
+  },
+  {
+   "card": 16,
+   "condition": "jpeg60at60",
+   "reply": "0YHA-VCBE-PDHP-1M1Q",
+   "read": "0YHA-VCBE-PDHP-1M1Q"
+  },
+  {
+   "card": 17,
+   "condition": "jpeg60at60",
+   "reply": "WG37-6RZV-DF48-HHEG",
+   "read": "WG37-6RZV-DF48-HHEG"
+  },
+  {
+   "card": 18,
+   "condition": "jpeg60at60",
+   "reply": "290M-AZ4N-Z7F2-RSXB",
+   "read": "290M-AZ4N-Z7F2-RSXB"
+  },
+  {
+   "card": 19,
+   "condition": "jpeg60at60",
+   "reply": "GWJZ-PCTP-WY72-3Z1R",
+   "read": "GWJZ-PCTP-WY72-3Z1R"
+  },
+  {
+   "card": 20,
+   "condition": "jpeg60at60",
+   "reply": "PS6Y-AV2K-VE8N-N1SZ",
+   "read": "PS6Y-AV2K-VE8N-N1SZ"
+  },
+  {
+   "card": 21,
+   "condition": "jpeg60at60",
+   "reply": "V09H-W1Z5-F5SN-DGH0",
+   "read": "V09H-W1Z5-F5SN-DGH0"
+  },
+  {
+   "card": 22,
+   "condition": "jpeg60at60",
+   "reply": "M0F0-H3Q9-3QS3-J1F0",
+   "read": "M0F0-H3Q9-3QS3-J1F0"
+  },
+  {
+   "card": 23,
+   "condition": "jpeg60at60",
+   "reply": "ZZXV-902K-C3TV-81WV",
+   "read": "ZZXV-902K-C3TV-81WV"
+  },
+  {
+   "card": 24,
+   "condition": "jpeg60at60",
+   "reply": "N3B6-Z59B-PVER-4YXT",
+   "read": "N3B6-Z59B-PVER-4YXT"
+  },
+  {
+   "card": 25,
+   "condition": "jpeg60at60",
+   "reply": "CTFY-9H16-YZD9-D09C",
+   "read": "CTFY-9H16-YZD9-D09C"
+  },
+  {
+   "card": 26,
+   "condition": "jpeg60at60",
+   "reply": "NT01-GR9H-43KH-WJVS",
+   "read": "NT01-GR9H-43KH-WJVS"
+  },
+  {
+   "card": 27,
+   "condition": "jpeg60at60",
+   "reply": "9807-TVA1-9FQA-50XT",
+   "read": "9807-TVA1-9FQA-50XT"
+  },
+  {
+   "card": 28,
+   "condition": "jpeg60at60",
+   "reply": "M974-JPZE-VXD4-HY8K",
+   "read": "M974-JPZE-VXD4-HY8K"
+  },
+  {
+   "card": 29,
+   "condition": "jpeg60at60",
+   "reply": "5F82-MK7E-6C6C-N3JZ",
+   "read": "5F82-MK7E-6C6C-N3JZ"
+  },
+  {
+   "card": 30,
+   "condition": "jpeg60at60",
+   "reply": "VK23-E2SM-2H54-CANW",
+   "read": "VK23-E2SM-2H54-CANW"
+  },
+  {
+   "card": 31,
+   "condition": "jpeg60at60",
+   "reply": "ZKQ5-F15T-XYEF-XC28",
+   "read": "ZKQ5-F15T-XYEF-XC28"
+  },
+  {
+   "card": 32,
+   "condition": "jpeg60at60",
+   "reply": "CXSW-ZMN9-Y28D-HZNM",
+   "read": "CXSW-ZMN9-Y28D-HZNM"
+  },
+  {
+   "card": 33,
+   "condition": "jpeg60at60",
+   "reply": "0Z1P-0ZBQ-46JC-JVKX",
+   "read": "0Z1P-0ZBQ-46JC-JVKX"
+  },
+  {
+   "card": 34,
+   "condition": "jpeg60at60",
+   "reply": "FYNS-S1Q4-SJWX-ZNQD",
+   "read": "FYNS-S1Q4-SJWX-ZNQD"
+  },
+  {
+   "card": 35,
+   "condition": "jpeg60at60",
+   "reply": "DT9P-R9HB-MDQY-Z75S",
+   "read": "DT9P-R9HB-MDQY-Z75S"
+  },
+  {
+   "card": 36,
+   "condition": "jpeg60at60",
+   "reply": "KBPV-4AHQ-A51J-9GTP",
+   "read": "KBPV-4AHQ-A51J-9GTP"
+  },
+  {
+   "card": 37,
+   "condition": "jpeg60at60",
+   "reply": "S42Q-D639-1Y62-C204",
+   "read": "S42Q-D639-1Y62-C204"
+  },
+  {
+   "card": 38,
+   "condition": "jpeg60at60",
+   "reply": "RC01-XKKX-A5XP-7YBX",
+   "read": "RC01-XKKX-A5XP-7YBX"
+  },
+  {
+   "card": 39,
+   "condition": "jpeg60at60",
+   "reply": "FNH1-16KR-XVMZ-CW9Y",
+   "read": "FNH1-16KR-XVMZ-CW9Y"
+  },
+  {
+   "card": 40,
+   "condition": "jpeg60at60",
+   "reply": "R955-608A-08EV-2MF5",
+   "read": "R955-608A-08EV-2MF5"
+  },
+  {
+   "card": 41,
+   "condition": "jpeg60at60",
+   "reply": "FG7W-3SC6-5H4V-ATYH",
+   "read": "FG7W-3SC6-5H4V-ATYH"
+  },
+  {
+   "card": 42,
+   "condition": "jpeg60at60",
+   "reply": "172E-T1X0-K2NE-YG22",
+   "read": "172E-T1X0-K2NE-YG22"
+  },
+  {
+   "card": 43,
+   "condition": "jpeg60at60",
+   "reply": "0R1H-0SDN-4VD1-KZCC",
+   "read": "0R1H-0SDN-4VD1-KZCC"
+  },
+  {
+   "card": 44,
+   "condition": "jpeg60at60",
+   "reply": "7PV4-V7H2-SCQ3-PS2X",
+   "read": "7PV4-V7H2-SCQ3-PS2X"
+  },
+  {
+   "card": 45,
+   "condition": "jpeg60at60",
+   "reply": "H4B1-N4C7-E099-BFN9",
+   "read": "H4B1-N4C7-E099-BFN9"
+  },
+  {
+   "card": 46,
+   "condition": "jpeg60at60",
+   "reply": "XY5B-V2NS-2HDJ-279T",
+   "read": "XY5B-V2NS-2HDJ-279T"
+  },
+  {
+   "card": 47,
+   "condition": "jpeg60at60",
+   "reply": "WAWN-QQ2R-BA3G-BQE3",
+   "read": "WAWN-QQ2R-BA3G-BQE3"
+  },
+  {
+   "card": 48,
+   "condition": "jpeg60at60",
+   "reply": "FGX1-78G1-FCAD-31PK",
+   "read": "FGX1-78G1-FCAD-31PK"
+  },
+  {
+   "card": 49,
+   "condition": "jpeg60at60",
+   "reply": "ME6D-06TV-A9F5-5G08",
+   "read": "ME6D-06TV-A9F5-5G08"
+  },
+  {
+   "card": 50,
+   "condition": "jpeg60at60",
+   "reply": "XC2D-V13E-0AKS-GEFR",
+   "read": "XC2D-V13E-0AKS-GEFR"
+  },
+  {
+   "card": 51,
+   "condition": "jpeg60at60",
+   "reply": "FD1C-QQTS-KJ76-TG03",
+   "read": "FD1C-QQTS-KJ76-TG03"
+  },
+  {
+   "card": 52,
+   "condition": "jpeg60at60",
+   "reply": "TQ69-A8GE-K57J-QKYB",
+   "read": "TQ69-A8GE-K57J-QKYB"
+  },
+  {
+   "card": 53,
+   "condition": "jpeg60at60",
+   "reply": "6NQD-NQDB-V13R-8XMB",
+   "read": "6NQD-NQDB-V13R-8XMB"
+  },
+  {
+   "card": 54,
+   "condition": "jpeg60at60",
+   "reply": "B24S-YVWD-RY4D-4W1M",
+   "read": "B24S-YVWD-RY4D-4W1M"
+  },
+  {
+   "card": 55,
+   "condition": "jpeg60at60",
+   "reply": "SRPQ-RZ6T-DEDS-BPT1",
+   "read": "SRPQ-RZ6T-DEDS-BPT1"
+  },
+  {
+   "card": 56,
+   "condition": "jpeg60at60",
+   "reply": "DN0R-1PSA-2TQ9-FM0H",
+   "read": "DN0R-1PSA-2TQ9-FM0H"
+  },
+  {
+   "card": 57,
+   "condition": "jpeg60at60",
+   "reply": "43EQ-PHNY-DWYN-JTCN",
+   "read": "43EQ-PHNY-DWYN-JTCN"
+  },
+  {
+   "card": 58,
+   "condition": "jpeg60at60",
+   "reply": "H6F4-YRM5-JVEQ-X5A5",
+   "read": "H6F4-YRM5-JVEQ-X5A5"
+  },
+  {
+   "card": 59,
+   "condition": "jpeg60at60",
+   "reply": "763H-0A92-8705-MKKS",
+   "read": "763H-0A92-8705-MKKS"
+  },
+  {
+   "card": 60,
+   "condition": "jpeg60at60",
+   "reply": "S88X-DRY5-TWGC-RB97",
+   "read": "S88X-DRY5-TWGC-RB97"
+  },
+  {
+   "card": 61,
+   "condition": "jpeg60at60",
+   "reply": "23J4-4PX5-TC6E-VT1R",
+   "read": "23J4-4PX5-TC6E-VT1R"
+  },
+  {
+   "card": 62,
+   "condition": "jpeg60at60",
+   "reply": "61KH-PTQ7-4M1A-TD7T",
+   "read": "61KH-PTQ7-4M1A-TD7T"
+  },
+  {
+   "card": 63,
+   "condition": "jpeg60at60",
+   "reply": "68H2-2SXK-QGT0-H4SM",
+   "read": "68H2-2SXK-QGT0-H4SM"
+  },
+  {
+   "card": 0,
+   "condition": "png35",
+   "reply": "Z397-WMCE-051Q-5ECJ",
+   "read": "Z397-WMCE-051Q-5ECJ"
+  },
+  {
+   "card": 1,
+   "condition": "png35",
+   "reply": "R1P7-BQGF-80V8-CCWK",
+   "read": "R1P7-BQGF-80V8-CCWK"
+  },
+  {
+   "card": 2,
+   "condition": "png35",
+   "reply": "3E1C-XC3Q-9P1R-4ZZD",
+   "read": "3E1C-XC3Q-9P1R-4ZZD"
+  },
+  {
+   "card": 3,
+   "condition": "png35",
+   "reply": "6WHU-DDBJ-HCEM-6DVB",
+   "read": "6WHU-DDBJ-HCEM-6DVB"
+  },
+  {
+   "card": 4,
+   "condition": "png35",
+   "reply": "CY41-RAQK-EXU6-PW9V",
+   "read": "CY41-RAQK-EXU6-PW9V"
+  },
+  {
+   "card": 5,
+   "condition": "png35",
+   "reply": "S7CW-GW26-R89Z-GK2K",
+   "read": "S7CW-GW26-R89Z-GK2K"
+  },
+  {
+   "card": 6,
+   "condition": "png35",
+   "reply": "T1XD-Q7A5-DK4C-Q49Y",
+   "read": "T1XD-Q7A5-DK4C-Q49Y"
+  },
+  {
+   "card": 7,
+   "condition": "png35",
+   "reply": "AGKY-BE61-ESFJ-BSXN",
+   "read": "AGKY-BE61-ESFJ-BSXN"
+  },
+  {
+   "card": 8,
+   "condition": "png35",
+   "reply": "ZAY5-ZBG2-FKWE-Z46R",
+   "read": "ZAY5-ZBG2-FKWE-Z46R"
+  },
+  {
+   "card": 9,
+   "condition": "png35",
+   "reply": "006Y-PAJM-WN7E-XN0R",
+   "read": "006Y-PAJM-WN7E-XN0R"
+  },
+  {
+   "card": 10,
+   "condition": "png35",
+   "reply": "SB27-Z390-WEC6-9DBJ",
+   "read": "SB27-Z390-WEC6-9DBJ"
+  },
+  {
+   "card": 11,
+   "condition": "png35",
+   "reply": "WD49-869Z-74A0-EC00",
+   "read": "WD49-869Z-74A0-EC00"
+  },
+  {
+   "card": 12,
+   "condition": "png35",
+   "reply": "KN9E-ZYE1-GR2X-Y1SY",
+   "read": "KN9E-ZYE1-GR2X-Y1SY"
+  },
+  {
+   "card": 13,
+   "condition": "png35",
+   "reply": "0MBK-7XEM-M6JG-T4HA",
+   "read": "0MBK-7XEM-M6JG-T4HA"
+  },
+  {
+   "card": 14,
+   "condition": "png35",
+   "reply": "MY2T-Y124-6WD2-R0XD",
+   "read": "MY2T-Y124-6WD2-R0XD"
+  },
+  {
+   "card": 15,
+   "condition": "png35",
+   "reply": "FP7D-HY5Y-Q5P5-CM6J",
+   "read": "FP7D-HY5Y-Q5P5-CM6J"
+  },
+  {
+   "card": 16,
+   "condition": "png35",
+   "reply": "0YHA-VCBE-PDHP-1M1Q",
+   "read": "0YHA-VCBE-PDHP-1M1Q"
+  },
+  {
+   "card": 17,
+   "condition": "png35",
+   "reply": "WG37-6RZV-DF48-HHEG",
+   "read": "WG37-6RZV-DF48-HHEG"
+  },
+  {
+   "card": 18,
+   "condition": "png35",
+   "reply": "290M-AZ4N-Z7F2-RSXB",
+   "read": "290M-AZ4N-Z7F2-RSXB"
+  },
+  {
+   "card": 19,
+   "condition": "png35",
+   "reply": "GWJZ-PCTP-WY72-3Z1R",
+   "read": "GWJZ-PCTP-WY72-3Z1R"
+  },
+  {
+   "card": 20,
+   "condition": "png35",
+   "reply": "PS6Y-AU2K-VE8N-N1SZ",
+   "read": "PS6Y-AU2K-VE8N-N1SZ"
+  },
+  {
+   "card": 21,
+   "condition": "png35",
+   "reply": "V09H-W1Z5-F5SN-DGH0",
+   "read": "V09H-W1Z5-F5SN-DGH0"
+  },
+  {
+   "card": 22,
+   "condition": "png35",
+   "reply": "M0F0-H3D9-3QS3-J1F0",
+   "read": "M0F0-H3D9-3QS3-J1F0"
+  },
+  {
+   "card": 23,
+   "condition": "png35",
+   "reply": "ZZXV-902K-C3TV-81WV",
+   "read": "ZZXV-902K-C3TV-81WV"
+  },
+  {
+   "card": 24,
+   "condition": "png35",
+   "reply": "N3B6-Z59B-PU8R-4YXT",
+   "read": "N3B6-Z59B-PU8R-4YXT"
+  },
+  {
+   "card": 25,
+   "condition": "png35",
+   "reply": "CTFY-9H16-YZD9-D09C",
+   "read": "CTFY-9H16-YZD9-D09C"
+  },
+  {
+   "card": 26,
+   "condition": "png35",
+   "reply": "NT01-GR9H-43KH-WJVS",
+   "read": "NT01-GR9H-43KH-WJVS"
+  },
+  {
+   "card": 27,
+   "condition": "png35",
+   "reply": "9807-TVA1-9FQA-50XT",
+   "read": "9807-TVA1-9FQA-50XT"
+  },
+  {
+   "card": 28,
+   "condition": "png35",
+   "reply": "M974-JPZE-UXD4-HY8K",
+   "read": "M974-JPZE-UXD4-HY8K"
+  },
+  {
+   "card": 29,
+   "condition": "png35",
+   "reply": "5F82-MK7E-6C6C-N3JZ",
+   "read": "5F82-MK7E-6C6C-N3JZ"
+  },
+  {
+   "card": 30,
+   "condition": "png35",
+   "reply": "VK23-E2SM-2H54-CANW",
+   "read": "VK23-E2SM-2H54-CANW"
+  },
+  {
+   "card": 31,
+   "condition": "png35",
+   "reply": "ZKQ5-F15T-XYEF-XC28",
+   "read": "ZKQ5-F15T-XYEF-XC28"
+  },
+  {
+   "card": 32,
+   "condition": "png35",
+   "reply": "CXSW-ZMN9-Y28D-HZNM",
+   "read": "CXSW-ZMN9-Y28D-HZNM"
+  },
+  {
+   "card": 33,
+   "condition": "png35",
+   "reply": "0Z1P-0ZBQ-46JC-JVKX",
+   "read": "0Z1P-0ZBQ-46JC-JVKX"
+  },
+  {
+   "card": 34,
+   "condition": "png35",
+   "reply": "FYNS-S104-SJWX-ZNQD",
+   "read": "FYNS-S104-SJWX-ZNQD"
+  },
+  {
+   "card": 35,
+   "condition": "png35",
+   "reply": "DT9P-R9HB-MDQY-Z75S",
+   "read": "DT9P-R9HB-MDQY-Z75S"
+  },
+  {
+   "card": 36,
+   "condition": "png35",
+   "reply": "KBPV-4AHQ-A51J-9GTP",
+   "read": "KBPV-4AHQ-A51J-9GTP"
+  },
+  {
+   "card": 37,
+   "condition": "png35",
+   "reply": "S420-D639-1Y62-C204",
+   "read": "S420-D639-1Y62-C204"
+  },
+  {
+   "card": 38,
+   "condition": "png35",
+   "reply": "RC01-XKKX-A5XP-7YBX",
+   "read": "RC01-XKKX-A5XP-7YBX"
+  },
+  {
+   "card": 39,
+   "condition": "png35",
+   "reply": "FNH1-16KR-XVMZ-CW9Y",
+   "read": "FNH1-16KR-XVMZ-CW9Y"
+  },
+  {
+   "card": 40,
+   "condition": "png35",
+   "reply": "R955-608A-08EV-2MF5",
+   "read": "R955-608A-08EV-2MF5"
+  },
+  {
+   "card": 41,
+   "condition": "png35",
+   "reply": "FG7W-3SC6-5H4V-ATYH",
+   "read": "FG7W-3SC6-5H4V-ATYH"
+  },
+  {
+   "card": 42,
+   "condition": "png35",
+   "reply": "172E-T1X0-K2NE-Y622",
+   "read": "172E-T1X0-K2NE-Y622"
+  },
+  {
+   "card": 43,
+   "condition": "png35",
+   "reply": "QR1H-0SDN-4VD1-KZCC",
+   "read": "QR1H-0SDN-4VD1-KZCC"
+  },
+  {
+   "card": 44,
+   "condition": "png35",
+   "reply": "7PV4-V7H2-SC03-PS2X",
+   "read": "7PV4-V7H2-SC03-PS2X"
+  },
+  {
+   "card": 45,
+   "condition": "png35",
+   "reply": "H4B1-N4C7-E099-BFN9",
+   "read": "H4B1-N4C7-E099-BFN9"
+  },
+  {
+   "card": 46,
+   "condition": "png35",
+   "reply": "XY5B-V2NS-2HDJ-279T",
+   "read": "XY5B-V2NS-2HDJ-279T"
+  },
+  {
+   "card": 47,
+   "condition": "png35",
+   "reply": "WAWN-Q02R-BA3G-B0E3",
+   "read": "WAWN-Q02R-BA3G-B0E3"
+  },
+  {
+   "card": 48,
+   "condition": "png35",
+   "reply": "FGX1-78G1-FCAD-31PK",
+   "read": "FGX1-78G1-FCAD-31PK"
+  },
+  {
+   "card": 49,
+   "condition": "png35",
+   "reply": "ME6D-06TV-A9F5-5G08",
+   "read": "ME6D-06TV-A9F5-5G08"
+  },
+  {
+   "card": 50,
+   "condition": "png35",
+   "reply": "XCZD-V13E-0AKS-GEFR",
+   "read": "XCZD-V13E-0AKS-GEFR"
+  },
+  {
+   "card": 51,
+   "condition": "png35",
+   "reply": "FD1C-QQTS-KJ76-TG03",
+   "read": "FD1C-QQTS-KJ76-TG03"
+  },
+  {
+   "card": 52,
+   "condition": "png35",
+   "reply": "TQ69-A8GE-K57J-QKYB",
+   "read": "TQ69-A8GE-K57J-QKYB"
+  },
+  {
+   "card": 53,
+   "condition": "png35",
+   "reply": "6N0D-N0DB-U13R-8XMB",
+   "read": "6N0D-N0DB-U13R-8XMB"
+  },
+  {
+   "card": 54,
+   "condition": "png35",
+   "reply": "B24S-YUWD-RY4D-4W1M",
+   "read": "B24S-YUWD-RY4D-4W1M"
+  },
+  {
+   "card": 55,
+   "condition": "png35",
+   "reply": "SRPQ-RZ6T-DEDS-BPT1",
+   "read": "SRPQ-RZ6T-DEDS-BPT1"
+  },
+  {
+   "card": 56,
+   "condition": "png35",
+   "reply": "DN0R-1PSA-2TQ9-FM0H",
+   "read": "DN0R-1PSA-2TQ9-FM0H"
+  },
+  {
+   "card": 57,
+   "condition": "png35",
+   "reply": "43EQ-PHNY-DWYN-JTCN",
+   "read": "43EQ-PHNY-DWYN-JTCN"
+  },
+  {
+   "card": 58,
+   "condition": "png35",
+   "reply": "H6F4-YRM5-JVEQ-X5A5",
+   "read": "H6F4-YRM5-JVEQ-X5A5"
+  },
+  {
+   "card": 59,
+   "condition": "png35",
+   "reply": "763H-0A92-8705-MKKS",
+   "read": "763H-0A92-8705-MKKS"
+  },
+  {
+   "card": 60,
+   "condition": "png35",
+   "reply": "S08X-DRY5-TWGC-RB97",
+   "read": "S08X-DRY5-TWGC-RB97"
+  },
+  {
+   "card": 61,
+   "condition": "png35",
+   "reply": "23J4-4PX5-TC6E-VT1R",
+   "read": "23J4-4PX5-TC6E-VT1R"
+  },
+  {
+   "card": 62,
+   "condition": "png35",
+   "reply": "61KH-PTQ7-4M1A-TD7T",
+   "read": "61KH-PTQ7-4M1A-TD7T"
+  },
+  {
+   "card": 63,
+   "condition": "png35",
+   "reply": "68H2-2SXK-0GT0-H4SM",
+   "read": "68H2-2SXK-0GT0-H4SM"
+  }
+ ]
+}

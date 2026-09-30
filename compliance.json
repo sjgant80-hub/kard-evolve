@@ -1,0 +1,33 @@
+{
+ "ok": true,
+ "v": 1,
+ "system": "A sealed evolution experiment and its page: small rule-based readers of damaged seal codes are bred, battled and selected by a tested kernel, graded by rules against committed data. The data includes replies a vision model gave in another repository's sealed run; this build calls no model, and the page runs none and collects nothing.",
+ "asOf": "2026-09-30",
+ "lawChecked": "2026-09-30",
+ "ai": "none",
+ "deployment": "local",
+ "annexIII": null,
+ "aiAct": {
+  "applies": false,
+  "why": "No AI system (Art 3(1)): the build runs no model that infers its outputs, so the AI Act places no duty on it."
+ },
+ "gdpr": {
+  "applies": false,
+  "why": "No personal data is processed, so no GDPR / UK GDPR duty arises from the build."
+ },
+ "items": [],
+ "counts": {
+  "removed": 0,
+  "eased": 0,
+  "yours": 0,
+  "shared": 0,
+  "unchanged": 0
+ },
+ "applying": 0,
+ "inForce": 0,
+ "upcoming": [],
+ "blocking": [],
+ "build": "kard-evolve",
+ "generatedBy": "fall-euaiact comply.mjs",
+ "lawSource": "https://github.com/sjgant80-hub/fall-euaiact/blob/main/law/law.json"
+}

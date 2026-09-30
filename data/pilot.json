@@ -1,0 +1,72 @@
+{
+ "kind": "kard-evolve-pilot",
+ "v": 1,
+ "config": {
+  "seed": 2718,
+  "population": 48,
+  "generations": 150,
+  "elites": 4,
+  "tries": 3
+ },
+ "pilot": {
+  "table": [
+   [
+    "W",
+    "U",
+    5
+   ],
+   [
+    "Q",
+    "0",
+    3
+   ],
+   [
+    "G",
+    "6",
+    3
+   ],
+   [
+    "Z",
+    "2",
+    1
+   ],
+   [
+    "Q",
+    "D",
+    1
+   ],
+   [
+    "E",
+    "8",
+    1
+   ]
+  ],
+  "seed": 777,
+  "perCardReal": 3,
+  "perCardSynth": 8
+ },
+ "result": {
+  "champion": "6G.UW|661",
+  "words": "reads 6 as G, U as W; accepts up to 6 edits when no other card is within 6 more, with at most 1 unreadable",
+  "championHeld": {
+   "fitness": 34032,
+   "right": 352,
+   "wrong": 0,
+   "refused": 0,
+   "edits": 584,
+   "n": 352
+  },
+  "gen0": "|550",
+  "gen0Held": {
+   "fitness": 24760,
+   "right": 257,
+   "wrong": 0,
+   "refused": 95,
+   "edits": 470,
+   "n": 352
+  },
+  "foundUW": true,
+  "firstBest": 13,
+  "memo": 52972
+ }
+}

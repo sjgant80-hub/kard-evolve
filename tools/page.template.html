@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>kard-evolve · creatures that evolve, measurably</title>
+<meta name="description" content="The first step of FallKard creatures: readers of damaged seal codes, bred, battled and selected against 192 real model misreads — graded by rules, sealed before the first generation, and re-runnable in your browser to the byte.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"kard-evolve","description":"A sealed evolution experiment: creatures whose genes are code-reading rules evolve against real vision-model misreads of FallKard printed seals, with fitness graded by rules on held-out cards, and a byte-for-byte reproducible run.","author":{"@type":"Person","name":"Kar"},"license":"https://opensource.org/licenses/MIT","url":"https://sjgant80-hub.github.io/kard-evolve/","codeRepository":"https://github.com/sjgant80-hub/kard-evolve"}</script>
+<!-- ⟦FAQ-BEGIN⟧ --><!-- ⟦FAQ-END⟧ -->
+<style>
+:root{--bg:#0c0b10;--panel:#15131b;--line:#2d2a36;--ink:#ece6d6;--dim:#a39c8c;--faint:#6f6a78;--gold:#d6a93a;--soft:#e9cf7f;--ok:#5fbf8f;--no:#e0616d;--v:#8fb4ff;
+ --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#fbf8f1;--panel:#fff;--line:#e4dcc9;--ink:#22201c;--dim:#5e564a;--faint:#8b8272;--gold:#8a6a13;--soft:#6d5310;--v:#2f5fc4}}
+:root[data-theme="light"]{--bg:#fbf8f1;--panel:#fff;--line:#e4dcc9;--ink:#22201c;--dim:#5e564a;--faint:#8b8272;--gold:#8a6a13;--soft:#6d5310;--v:#2f5fc4}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6}
+.wrap{max-width:54rem;margin:0 auto;padding:0 16px 5rem}
+header{padding:3rem 0 1.2rem}
+.kick{font-family:var(--mono);font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:0 0 .6rem}
+h1{font-family:var(--serif);font-weight:500;font-size:clamp(1.9rem,6vw,3rem);margin:0 0 .5rem;color:var(--soft)}
+.lede{font-family:var(--serif);font-style:italic;color:var(--dim);font-size:clamp(1rem,2.4vw,1.2rem);margin:0}
+h2{font-family:var(--serif);font-weight:500;color:var(--gold);font-size:1.3rem;margin:2.3rem 0 .4rem}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:.8rem 0;overflow-x:auto}
+.verdict{border-color:var(--gold)}
+.big{font-size:1.08rem}
+.stat{font-variant-numeric:tabular-nums;font-weight:700;color:var(--soft)}
+.quiet{color:var(--dim);font-size:.92rem}
+.mono{font-family:var(--mono);font-size:.84rem}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th,td{text-align:left;padding:.4rem .45rem;border-top:1px solid var(--line);vertical-align:top}
+th{color:var(--faint);font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;border-top:0}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+.pass{color:var(--ok);font-family:var(--mono);font-weight:700}.fail{color:var(--no);font-family:var(--mono);font-weight:700}
+.gene{display:inline-block;font-family:var(--mono);font-size:.8rem;border:1px solid var(--line);border-radius:6px;padding:.05rem .4rem;margin:.1rem .2rem .1rem 0}
+.gene.uv{border-color:var(--v);color:var(--v)}
+.row{display:flex;gap:18px;flex-wrap:wrap;align-items:flex-start}.row>*{flex:1 1 260px;min-width:0}
+svg{max-width:100%;height:auto;display:block}
+button{background:var(--gold);color:#16130c;border:0;border-radius:8px;padding:.6rem 1.1rem;font:inherit;font-weight:600;cursor:pointer}
+button:hover{background:var(--soft)}button:disabled{opacity:.6;cursor:wait}
+button:focus-visible{outline:2px solid var(--soft);outline-offset:2px}
+code{font-family:var(--mono);font-size:.85em;background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:.05em .3em}
+a{color:var(--soft)}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--faint);font-size:.84rem}
+</style></head><body><div class="wrap">
+<header>
+ <p class="kick">FallKard creatures · step one</p>
+ <h1>Creatures that evolve, measurably</h1>
+ <p class="lede">Each creature is a reader of damaged seal codes. Its genes are rules you can read. Its fitness is graded by rules on cards it has never seen. Its whole evolution can be re-run in your browser, and comes out the same to the byte.</p>
+</header>
+
+<h2>The verdict</h2>
+<div class="card verdict" id="verdict"></div>
+<div class="card"><table id="rules"><thead><tr><th>sealed rule</th><th>result</th><th></th><th>predicted before the run</th></tr></thead><tbody></tbody></table></div>
+
+<h2>The champion</h2>
+<div class="card"><div class="row"><div id="face"></div><div id="champ"></div></div></div>
+
+<h2>How it evolved</h2>
+<div class="card"><p class="quiet" style="margin-top:0">The best creature of each generation: how many cards it resolves on the training half (selection sees these) and on the held-out half (selection never does).</p><div id="curve"></div></div>
+<div class="card"><p class="quiet" style="margin-top:0">Genes spreading through the population of <span id="popn"></span>: how many creatures carry each of the champion's folds, generation by generation.</p><div id="spread"></div></div>
+<div class="card"><p class="quiet" style="margin-top:0">The champion's family line, back to generation 0: each step is the fitter parent, and a new gene is marked where it first appears.</p><div id="line"></div></div>
+
+<h2>Against generation 0</h2>
+<div class="card"><table id="versus"><thead><tr><th>held-out reads</th><th>reader</th><th>right</th><th>wrong</th><th>refused</th><th>corrections</th></tr></thead><tbody></tbody></table></div>
+
+<h2>Re-run it yourself</h2>
+<div class="card"><p style="margin-top:0">The whole evolution again, from the seal, in your browser: the same kernel this page is built from, the same world, the same seed. It takes about a minute. If it comes out different by a single byte, this page says so.</p>
+ <button id="rerun" type="button">Re-run the evolution</button> <span id="rerunOut" class="quiet" role="status" aria-live="polite"></span></div>
+
+<h2>The world, and what was sealed first</h2>
+<div class="card" id="world"></div>
+<div class="card" id="pilot"></div>
+
+<footer>
+ <p>The evolution on this page runs the mutation-gated kernel <code>evolve.mjs</code> and the vendored <code>sealmark.mjs</code> from <a href="https://sjgant80-hub.github.io/fallkard-forge/">fallkard-forge</a>, inlined verbatim. · <a href="https://github.com/sjgant80-hub/kard-evolve">source</a> · <a href="compliance.html">compliance map</a></p>
+ <p>Powered by the Konomi architecture, created by Thomas Frumkin.</p>
+</footer>
+</div>
+
+<script id="kernel">
+/* ⟦KERNEL-BEGIN⟧ */
+/* ⟦KERNEL-END⟧ */
+</script>
+<script>
+/* ⟦DATA-BEGIN⟧ */
+/* ⟦DATA-END⟧ */
+</script>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const esc = (t) => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const P = DATA.prereg, R = DATA.run, W = DATA.world;
+  const w = K.world(W.codes);
+  const h = K.habitat({ codes: W.codes, real: W.real, split: W.split }, P.world.habitat);
+  const nf = (n) => n.toLocaleString('en-GB');
+  const pct = (a, b) => (b ? Math.round((a / b) * 1000) / 10 : 0) + '%';
+  const geneTag = (f) => '<span class="gene' + (f === 'UV' ? ' uv' : '') + '">' + f[0] + ' &rarr; ' + f[1] + '</span>';
+
+  // the world and the pilot, always
+  $('world').innerHTML = '<p style="margin-top:0"><b>The world.</b> ' + esc(P.world.source) + '. ' + esc(P.world.split) + '. ' + esc(P.world.damage) + '.</p>'
+    + '<p class="quiet"><b>Slips measured on the training cards</b> (true &rarr; read, how often): ' + h.table.map(([a, b, n]) => '<span class="gene' + (a + b === 'VU' ? ' uv' : '') + '">' + a + ' &rarr; ' + b + ' &times;' + n + '</span>').join(' ') + '</p>'
+    + '<p class="quiet"><b>The creatures.</b> ' + esc(P.creature.genes) + '. Fitness: ' + esc(P.creature.fitness) + '. ' + esc(P.creature.battle) + '. ' + esc(P.creature.breed) + '. Birth gate: ' + esc(P.creature.birthGate) + '. Configuration: <code>' + esc(JSON.stringify(P.config)) + '</code>.</p>'
+    + '<p class="quiet"><b>Sealed first.</b> The rules, the configuration, and the sha256 of the world and the kernel were committed and pushed before the first generation' + (R ? ' (<code>' + esc(R.sealedIn.slice(0, 7)) + '</code>)' : '') + '.</p>';
+  $('pilot').innerHTML = '<p style="margin-top:0"><b>The pilot, disclosed.</b> ' + esc(P.pilot.why) + '.</p><p class="quiet">' + esc(P.pilot.first) + '</p>'
+    + '<p class="quiet">The second pilot, on the final kernel: the champion <b>' + esc(P.pilot.second.words) + '</b>. It found U &rarr; W, the invented slip, by generation ' + P.pilot.second.firstBest + ', and read ' + P.pilot.second.championHeld.right + ' of ' + P.pilot.second.championHeld.n + ' held-out reads with ' + P.pilot.second.championHeld.wrong + ' wrong (generation 0: ' + P.pilot.second.gen0Held.right + '). That pilot is re-run on every push, too.</p>';
+
+  if (!R) {
+    $('verdict').innerHTML = '<p class="big" style="margin:0"><b>Sealed, not yet run.</b> The five rules below were fixed before the first generation; the result lands here whichever way it goes.</p>';
+    $('rules').querySelector('tbody').innerHTML = P.rules.map((r) => '<tr><td>' + esc(r.rule) + '</td><td>—</td><td></td><td class="quiet">' + esc(P.predictions[r.id]) + '</td></tr>').join('');
+    for (const id of ['face', 'champ', 'curve', 'spread', 'line']) $(id).innerHTML = '<p class="quiet">After the run.</p>';
+    $('rerun').disabled = true;
+    return;
+  }
+
+  const rec = R.record, ch = rec.champion, g0 = rec.gen0;
+  const j = K.judge(rec, h, w);
+  const repro = { id: 'reproducible', pass: true, value: 'CI re-runs it on every push — and you can, below' };
+  const rules = [...j.rules, repro];
+  const uvGen = rec.history.find((x) => x.genes.some(([f]) => f === 'UV'));
+  const uvBest = rec.history.find((x) => x.best.key.split('|')[0].split('.').includes('UV'));
+  $('verdict').innerHTML = '<p class="big" style="margin-top:0"><b>' + (j.passed + 1) + ' of ' + (j.of + 1) + ' sealed rules held.</b> After ' + P.config.generations + ' generations, the champion ' + esc(K.describe(ch.genome)) + '.</p>'
+    + '<p class="quiet">On the held-out cards it resolves <span class="stat">' + ch.held.right + ' of ' + ch.held.n + '</span> with <span class="stat">' + ch.held.wrong + '</span> wrong; generation 0’s best resolves ' + g0.held.right + '. '
+    + (uvGen ? 'The fold <span class="gene uv">U &rarr; V</span> first appeared in the population in generation <span class="stat">' + uvGen.gen + '</span>' + (uvBest ? ' and was in the best creature from generation <span class="stat">' + uvBest.gen + '</span>' : '') + '. Nothing told it to look.' : 'The fold U &rarr; V never appeared.') + '</p>';
+  $('rules').querySelector('tbody').innerHTML = rules.map((r) => '<tr><td>' + esc(P.rules.find((x) => x.id === r.id).rule) + '</td><td>' + esc(r.value) + '</td><td class="' + (r.pass ? 'pass' : 'fail') + '">' + (r.pass ? 'PASS' : 'FAIL') + '</td><td class="quiet">' + esc(P.predictions[r.id]) + '</td></tr>').join('');
+
+  // the champion's face, drawn from its genes: a limb per fold, spines for the edits it will accept, eyes set by its margin
+  const face = (g, keyStr) => {
+    let hsh = 0; for (const c of keyStr) hsh = (hsh * 31 + c.charCodeAt(0)) >>> 0;
+    const hue = hsh % 360, n = g.folds.length, cx = 130, cy = 120, r = 54;
+    const limbs = g.folds.map(([a, b], i) => { const t = (i / Math.max(1, n)) * Math.PI * 2 - Math.PI / 2, x = cx + Math.cos(t) * (r + 42), y = cy + Math.sin(t) * (r + 42); return '<line x1="' + (cx + Math.cos(t) * r) + '" y1="' + (cy + Math.sin(t) * r) + '" x2="' + x + '" y2="' + y + '" stroke="' + (a + b === 'UV' ? 'var(--v)' : 'hsl(' + hue + ' 55% 60%)') + '" stroke-width="3"/><circle cx="' + x + '" cy="' + y + '" r="15" fill="var(--panel)" stroke="' + (a + b === 'UV' ? 'var(--v)' : 'hsl(' + hue + ' 55% 60%)') + '" stroke-width="2"/><text x="' + x + '" y="' + (y + 4) + '" text-anchor="middle" font-family="ui-monospace,monospace" font-size="11" fill="var(--ink)">' + a + '→' + b + '</text>'; }).join('');
+    const spines = Array.from({ length: g.maxEdits }, (_, i) => { const t = Math.PI * (0.15 + 0.7 * (i + 0.5) / g.maxEdits); return '<line x1="' + (cx - Math.cos(t) * r) + '" y1="' + (cy + Math.sin(t) * r) + '" x2="' + (cx - Math.cos(t) * (r + 14)) + '" y2="' + (cy + Math.sin(t) * (r + 14)) + '" stroke="hsl(' + hue + ' 40% 45%)" stroke-width="2"/>'; }).join('');
+    const eye = 5 + g.margin * 1.5;
+    return '<svg viewBox="0 0 260 250" role="img" aria-label="the champion, drawn from its genes"><title>The champion, drawn from its genes</title>' + limbs + spines
+      + '<circle cx="' + cx + '" cy="' + cy + '" r="' + r + '" fill="hsl(' + hue + ' 35% 22%)" stroke="hsl(' + hue + ' 55% 60%)" stroke-width="2"/>'
+      + '<circle cx="' + (cx - 18) + '" cy="' + (cy - 8) + '" r="' + eye + '" fill="var(--ink)"/><circle cx="' + (cx + 18) + '" cy="' + (cy - 8) + '" r="' + eye + '" fill="var(--ink)"/>'
+      + '<circle cx="' + (cx - 18) + '" cy="' + (cy - 8) + '" r="' + (eye / 2.4) + '" fill="#0c0b10"/><circle cx="' + (cx + 18) + '" cy="' + (cy - 8) + '" r="' + (eye / 2.4) + '" fill="#0c0b10"/>'
+      + Array.from({ length: g.maxUnknown }, (_, i) => '<circle cx="' + (cx - 20 + (i % 4) * 13) + '" cy="' + (cy + 22 + Math.floor(i / 4) * 9) + '" r="2.4" fill="hsl(' + hue + ' 60% 70%)"/>').join('')
+      + '<text x="' + cx + '" y="240" text-anchor="middle" font-family="ui-monospace,monospace" font-size="11" fill="var(--dim)">' + esc(keyStr) + '</text></svg>';
+  };
+  $('face').innerHTML = face(ch.genome, ch.key) + '<p class="quiet" style="margin:.2rem 0 0;text-align:center">Its face is its genes: a limb for each fold, a spine for each edit it will accept, eyes as wide as its margin, a freckle for each unreadable symbol it tolerates.</p>';
+  $('champ').innerHTML = '<p style="margin-top:0"><b>Genome</b> <code>' + esc(ch.key) + '</code></p><p>' + ch.genome.folds.map(([a, b]) => geneTag(a + b)).join('') + '</p><p class="quiet">' + esc(K.describe(ch.genome)) + '.</p>'
+    + '<p class="quiet">Born in generation ' + ch.gen + '. On training: ' + ch.train.right + ' of ' + ch.train.n + ' right, ' + ch.train.wrong + ' wrong. On held-out: ' + ch.held.right + ' of ' + ch.held.n + ' right, ' + ch.held.wrong + ' wrong, ' + nf(ch.held.edits) + ' corrections.</p>';
+
+  // the curve
+  const Hs = rec.history, G = Hs.length - 1;
+  const X = (g) => 40 + (g / G) * 580, Y = (p) => 200 - p * 180;
+  const path = (f) => Hs.map((x, i) => (i ? 'L' : 'M') + X(x.gen).toFixed(1) + ' ' + Y(f(x)).toFixed(1)).join(' ');
+  const trainN = Hs[0].best.right + 0, hn = Hs[0].held.n;
+  const tr = (x) => x.best.right / h.train.length, hd = (x) => x.held.right / hn;
+  $('curve').innerHTML = '<svg viewBox="0 0 640 230" role="img" aria-label="best creature per generation: cards resolved on training and held-out"><title>Cards resolved by the best creature, per generation</title>'
+    + [0, 0.25, 0.5, 0.75, 1].map((p) => '<line x1="40" x2="620" y1="' + Y(p) + '" y2="' + Y(p) + '" stroke="var(--line)"/><text x="34" y="' + (Y(p) + 4) + '" text-anchor="end" font-size="10" fill="var(--faint)" font-family="ui-monospace,monospace">' + (p * 100) + '%</text>').join('')
+    + '<path d="' + path(tr) + '" fill="none" stroke="var(--gold)" stroke-width="2"/><path d="' + path(hd) + '" fill="none" stroke="var(--v)" stroke-width="2" stroke-dasharray="5 3"/>'
+    + (uvGen ? '<line x1="' + X(uvGen.gen) + '" x2="' + X(uvGen.gen) + '" y1="20" y2="200" stroke="var(--v)" stroke-opacity=".5"/><text x="' + (X(uvGen.gen) + 4) + '" y="30" font-size="10" fill="var(--v)" font-family="ui-monospace,monospace">U→V appears</text>' : '')
+    + '<text x="40" y="222" font-size="10" fill="var(--faint)" font-family="ui-monospace,monospace">generation 0</text><text x="620" y="222" text-anchor="end" font-size="10" fill="var(--faint)" font-family="ui-monospace,monospace">' + G + '</text></svg>'
+    + '<p class="quiet" style="margin:.3rem 0 0"><span style="color:var(--gold)">&#9644;</span> training (' + h.train.length + ' reads) · <span style="color:var(--v)">&#9476;</span> held out (' + hn + ' reads, never seen by selection): ' + pct(Hs[0].held.right, hn) + ' in generation 0 &rarr; ' + pct(Hs[G].held.right, hn) + ' in generation ' + G + '.</p>';
+  $('popn').textContent = String(P.config.population);
+  // gene spread for the champion's folds (a gene outside a generation's top six counts as not recorded that generation)
+  const folds = ch.genome.folds.map(([a, b]) => a + b);
+  const colours = ['var(--v)', 'var(--gold)', 'var(--ok)', 'var(--no)', 'var(--soft)', 'var(--dim)', 'var(--faint)', 'var(--ink)'];
+  const Ys = (n) => 200 - (n / P.config.population) * 180;
+  $('spread').innerHTML = folds.length ? '<svg viewBox="0 0 640 230" role="img" aria-label="how many creatures carry each of the champion’s folds per generation"><title>Carriers of the champion’s folds, per generation</title>'
+    + [0, 0.5, 1].map((p) => '<line x1="40" x2="620" y1="' + Ys(p * P.config.population) + '" y2="' + Ys(p * P.config.population) + '" stroke="var(--line)"/><text x="34" y="' + (Ys(p * P.config.population) + 4) + '" text-anchor="end" font-size="10" fill="var(--faint)" font-family="ui-monospace,monospace">' + Math.round(p * P.config.population) + '</text>').join('')
+    + folds.map((f, i) => '<path d="' + Hs.map((x, k) => (k ? 'L' : 'M') + X(x.gen).toFixed(1) + ' ' + Ys((x.genes.find(([g]) => g === f) || [f, 0])[1]).toFixed(1)).join(' ') + '" fill="none" stroke="' + (f === 'UV' ? 'var(--v)' : colours[(i + 1) % colours.length]) + '" stroke-width="2"/>').join('')
+    + '</svg><p class="quiet" style="margin:.3rem 0 0">' + folds.map((f, i) => '<span style="color:' + (f === 'UV' ? 'var(--v)' : colours[(i + 1) % colours.length]) + '">&#9644;</span> ' + f[0] + ' &rarr; ' + f[1]).join(' · ') + '</p>' : '<p class="quiet">The champion carries no folds.</p>';
+  // the family line
+  const steps = [...rec.line].reverse();
+  let prev = new Set();
+  $('line').innerHTML = '<table><thead><tr><th>generation</th><th>genome</th><th>new here</th></tr></thead><tbody>' + steps.map((s) => {
+    const fs = s.key.split('|')[0] ? s.key.split('|')[0].split('.') : [];
+    const fresh = fs.filter((f) => !prev.has(f));
+    prev = new Set(fs);
+    return '<tr><td class="n">' + s.gen + '</td><td class="mono">' + esc(s.key) + '</td><td>' + fresh.map(geneTag).join('') + '</td></tr>';
+  }).join('') + '</tbody></table>';
+  // versus
+  const rows = [
+    ['real replies', h.realHeld],
+    ['damaged copies', h.held.slice(h.realHeld.length)],
+    ['all held-out', h.held],
+  ];
+  $('versus').querySelector('tbody').innerHTML = rows.flatMap(([name, set]) => [['generation 0’s best', g0.genome], ['champion', ch.genome]].map(([who, g]) => { const s = K.score(g, w, set); return '<tr><td>' + name + ' (' + set.length + ')</td><td>' + who + '</td><td class="n">' + s.right + '</td><td class="n">' + s.wrong + '</td><td class="n">' + s.refused + '</td><td class="n">' + nf(s.edits) + '</td></tr>'; })).join('');
+
+  // re-run in a worker built from this page's own kernel
+  $('rerun').addEventListener('click', async () => {
+    const btn = $('rerun'), out = $('rerunOut');
+    btn.disabled = true;
+    const t0 = Date.now();
+    const tick = setInterval(() => { out.textContent = 'evolving… ' + Math.round((Date.now() - t0) / 1000) + ' s'; }, 500);
+    const src = $('kernel').textContent + '\nonmessage = (e) => { const d = e.data; const h = K.habitat(d.world, d.habitat); const r = K.evolve(d.config, K.world(d.world.codes), h.train, h.held); postMessage(JSON.stringify(r)); };';
+    const worker = new Worker(URL.createObjectURL(new Blob([src], { type: 'text/javascript' })));
+    worker.onmessage = async (e) => {
+      clearInterval(tick); worker.terminate();
+      const hex = Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(e.data)))).map((b) => b.toString(16).padStart(2, '0')).join('');
+      const same = hex === R.recordSha256;
+      out.innerHTML = (same ? '<span class="pass">IDENTICAL</span> — the same ' + P.config.generations + ' generations and the same champion, byte for byte' : '<span class="fail">DIFFERENT</span> — the re-run does not match the record') + ' (' + Math.round((Date.now() - t0) / 1000) + ' s, sha256 <code>' + hex.slice(0, 16) + '…</code>).';
+      btn.disabled = false;
+    };
+    worker.onerror = (err) => { clearInterval(tick); out.textContent = 'the re-run could not start here: ' + err.message; btn.disabled = false; };
+    worker.postMessage({ world: { codes: W.codes, real: W.real, split: W.split }, habitat: P.world.habitat, config: P.config });
+  });
+})();
+</script>
+</body></html>
