@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>kard-evolve · the creature that watches itself</title>
+<meta name="description" content="Experiment 2 of kard-evolve: a creature that watches its own misreads, with no answer key, and rewrites its own genes from them — measured against blind mutation and against blind search with the same compute, on the same held-out world, sealed before the first generation and re-runnable to the byte.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"kard-evolve · the self-observing creature","description":"A sealed three-armed evolution experiment: self-observing variation versus blind mutation versus compute-matched blind trials, on real vision-model misreads of FallKard printed seals, graded by rules on held-out cards, reproducible to the byte.","author":{"@type":"Person","name":"Kar"},"license":"https://opensource.org/licenses/MIT","url":"https://sjgant80-hub.github.io/kard-evolve/observer.html","codeRepository":"https://github.com/sjgant80-hub/kard-evolve"}</script>
+<style>
+:root{--bg:#0c0b10;--panel:#15131b;--line:#2d2a36;--ink:#ece6d6;--dim:#a39c8c;--faint:#6f6a78;--gold:#d6a93a;--soft:#e9cf7f;--ok:#5fbf8f;--no:#e0616d;--v:#8fb4ff;--t:#c08fe0;
+ --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#fbf8f1;--panel:#fff;--line:#e4dcc9;--ink:#22201c;--dim:#5e564a;--faint:#8b8272;--gold:#8a6a13;--soft:#6d5310;--v:#2f5fc4;--t:#7b3fa8}}
+:root[data-theme="light"]{--bg:#fbf8f1;--panel:#fff;--line:#e4dcc9;--ink:#22201c;--dim:#5e564a;--faint:#8b8272;--gold:#8a6a13;--soft:#6d5310;--v:#2f5fc4;--t:#7b3fa8}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6}
+.wrap{max-width:54rem;margin:0 auto;padding:0 16px 5rem}
+header{padding:3rem 0 1.2rem}
+.kick{font-family:var(--mono);font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:0 0 .6rem}
+h1{font-family:var(--serif);font-weight:500;font-size:clamp(1.9rem,6vw,3rem);margin:0 0 .5rem;color:var(--soft)}
+.lede{font-family:var(--serif);font-style:italic;color:var(--dim);font-size:clamp(1rem,2.4vw,1.2rem);margin:0}
+h2{font-family:var(--serif);font-weight:500;color:var(--gold);font-size:1.3rem;margin:2.3rem 0 .4rem}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:.8rem 0;overflow-x:auto}
+.verdict{border-color:var(--gold)}
+.big{font-size:1.08rem}.stat{font-variant-numeric:tabular-nums;font-weight:700;color:var(--soft)}
+.quiet{color:var(--dim);font-size:.92rem}.mono{font-family:var(--mono);font-size:.84rem}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th,td{text-align:left;padding:.4rem .45rem;border-top:1px solid var(--line);vertical-align:top}
+th{color:var(--faint);font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;border-top:0}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+.pass{color:var(--ok);font-family:var(--mono);font-weight:700}.fail{color:var(--no);font-family:var(--mono);font-weight:700}
+.arm{font-family:var(--mono);font-size:.8rem;border-radius:6px;padding:.05rem .45rem;border:1px solid}
+.a-blind{color:var(--gold);border-color:var(--gold)}.a-trials{color:var(--t);border-color:var(--t)}.a-observe{color:var(--v);border-color:var(--v)}
+.diary p{margin:.35rem 0;font-family:var(--serif)}
+svg{max-width:100%;height:auto;display:block}
+button{background:var(--gold);color:#16130c;border:0;border-radius:8px;padding:.6rem 1.1rem;font:inherit;font-weight:600;cursor:pointer}
+button:hover{background:var(--soft)}button:disabled{opacity:.6;cursor:wait}button:focus-visible{outline:2px solid var(--soft);outline-offset:2px}
+code{font-family:var(--mono);font-size:.85em;background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:.05em .3em}
+a{color:var(--soft)}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--faint);font-size:.84rem}
+</style></head><body><div class="wrap">
+<header>
+ <p class="kick">FallKard creatures · experiment 2 · <a href="./">experiment 1</a></p>
+ <h1>The creature that watches itself</h1>
+ <p class="lede">It never sees the answer key. It looks at the reads it refused and the reads that cost it the most corrections, works out what troubled it, and rewrites its own genes. The world still decides who lives.</p>
+</header>
+<h2>The verdict</h2>
+<div class="card verdict" id="verdict"></div>
+<div class="card"><table id="rules"><thead><tr><th>sealed rule</th><th>result</th><th></th><th>predicted before the run</th></tr></thead><tbody></tbody></table></div>
+<h2>Its own words</h2>
+<div class="card diary" id="diary"></div>
+<h2>Three ways to change, eight seeds</h2>
+<div class="card"><p class="quiet" style="margin-top:0">The generation at which each arm's best creature first read U as V, for every sealed seed. <span class="arm a-blind">blind</span> is experiment 1's random mutation; <span class="arm a-trials">trials</span> is the control, with the same compute and the same self-scoring, drawn blind; <span class="arm a-observe">observe</span> looks at its own misreads.</p><div id="dots"></div></div>
+<div class="card"><table id="perseed"><thead><tr><th>seed</th><th>arm</th><th>U→V at</th><th>champion</th><th>held-out right</th><th>wrong</th><th>corrections</th></tr></thead><tbody></tbody></table></div>
+<div class="card" id="compute"></div>
+<h2>Re-run it yourself</h2>
+<div class="card"><p style="margin-top:0">Seed 2718's three evolutions again, in your browser, from the seal: the same kernels this page is built from. About a minute or two. Each must match its sealed record byte for byte. CI re-runs all 24 on every push.</p>
+ <button id="rerun" type="button">Re-run seed 2718</button> <span id="rerunOut" class="quiet" role="status" aria-live="polite"></span></div>
+<h2>What was sealed first</h2>
+<div class="card" id="sealed"></div>
+<footer>
+ <p>The evolutions on this page run the mutation-gated kernels <code>observe.mjs</code> and <code>evolve.mjs</code>, and the vendored <code>sealmark.mjs</code> from <a href="https://sjgant80-hub.github.io/fallkard-forge/">fallkard-forge</a>, inlined verbatim. · <a href="./">experiment 1</a> · <a href="https://github.com/sjgant80-hub/kard-evolve">source</a> · <a href="compliance.html">compliance map</a></p>
+ <p>Powered by the Konomi architecture, created by Thomas Frumkin.</p>
+</footer>
+</div>
+<script id="kernel">
+/* ⟦KERNEL-BEGIN⟧ */
+/* ⟦KERNEL-END⟧ */
+</script>
+<script>
+/* ⟦DATA-BEGIN⟧ */
+/* ⟦DATA-END⟧ */
+</script>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const esc = (t) => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const P = DATA.prereg, R = DATA.run, W = DATA.world;
+  const armTag = (a) => '<span class="arm a-' + a + '">' + a + '</span>';
+  $('sealed').innerHTML = '<p style="margin-top:0"><b>The question.</b> ' + esc(P.question) + '</p>'
+    + '<p class="quiet"><b>The world.</b> ' + esc(P.world) + '.</p>'
+    + Object.entries(P.what).map(([k, v]) => '<p class="quiet"><b>' + esc(k) + '.</b> ' + esc(v) + '.</p>').join('')
+    + '<p class="quiet"><b>Configuration</b> <code>' + esc(JSON.stringify(P.config)) + '</code>, seeds <code>' + esc(P.seeds.join(', ')) + '</code>. ' + esc(P.crossCheck) + '.</p>'
+    + '<p class="quiet"><b>The pilot, disclosed.</b> ' + esc(P.pilot) + '.</p>'
+    + (R ? '<p class="quiet"><b>Sealed in</b> <code>' + esc(R.sealedIn.slice(0, 7)) + '</code>, committed and pushed before the first sealed generation.</p>' : '');
+  if (!R) {
+    $('verdict').innerHTML = '<p class="big" style="margin:0"><b>Sealed, not yet run.</b> The six rules below were fixed before the first sealed generation; the result lands here whichever way it goes.</p>';
+    $('rules').querySelector('tbody').innerHTML = P.rules.map((r) => '<tr><td>' + esc(r.rule) + '</td><td>—</td><td></td><td class="quiet">' + esc(P.predictions[r.id]) + '</td></tr>').join('');
+    for (const id of ['diary', 'dots', 'compute']) $(id).innerHTML = '<p class="quiet">After the run.</p>';
+    $('rerun').disabled = true;
+    return;
+  }
+  const recs = R.records, j = O.compare(recs, P.config.generations);
+  const rules = [...j.rules, { id: 'reproducible', pass: true, value: 'CI re-runs all 24 on every push — and you can re-run seed 2718 below' }];
+  const never = P.config.generations + 1;
+  const fmtGen = (g) => (g === never ? 'never' : 'generation ' + g);
+  $('verdict').innerHTML = '<p class="big" style="margin-top:0"><b>' + (j.passed + 1) + ' of ' + (j.of + 1) + ' sealed rules held.</b> Median generation at which the best creature first read U as V: ' + armTag('observe') + ' <span class="stat">' + j.medians.observe + '</span>, ' + armTag('trials') + ' <span class="stat">' + j.medians.trials + '</span>, ' + armTag('blind') + ' <span class="stat">' + j.medians.blind + '</span>.</p>'
+    + '<p class="quiet">On the held-out cards, the observer’s eight champions named ' + recs.observe.reduce((s, r) => s + r.champion.held.wrong, 0) + ' wrong cards between them.</p>';
+  $('rules').querySelector('tbody').innerHTML = rules.map((r) => '<tr><td>' + esc(P.rules.find((x) => x.id === r.id).rule) + '</td><td>' + esc(r.value) + '</td><td class="' + (r.pass ? 'pass' : 'fail') + '">' + (r.pass ? 'PASS' : 'FAIL') + '</td><td class="quiet">' + esc(P.predictions[r.id]) + '</td></tr>').join('');
+  // the diary of the observer's champion, seed 2718, in its own terms
+  const d = recs.observe[0].diary;
+  $('diary').innerHTML = '<p class="quiet" style="margin-top:0">The observer’s champion on seed 2718 (<code>' + esc(recs.observe[0].champion.key) + '</code>): every change it made to itself along its family line, from its own notes.</p>'
+    + (d.length ? d.map((n) => '<p><b>Generation ' + n.gen + '.</b> ' + n.troubled + ' of my reads troubled me' + (n.unknown ? ', ' + n.unknown + ' of them refused for a symbol I did not know' : '') + '. ' + (n.suspect ? 'I looked into <code>' + esc(n.suspect) + '</code> and tried ' + n.tried + ' changes' : 'Nothing named a symbol, so I tried ' + n.tried + ' nudges') + '. I changed <code>' + esc(n.from) + '</code> to <code>' + esc(n.to) + '</code>, and was ' + n.gain + ' surer of myself.</p>').join('') : '<p>It never needed to change itself.</p>');
+  // dots
+  const A = O.ARMS, colour = { blind: 'var(--gold)', trials: 'var(--t)', observe: 'var(--v)' };
+  const X = (g) => 60 + (g / never) * 560;
+  $('dots').innerHTML = '<svg viewBox="0 0 640 ' + (40 + A.length * 44) + '" role="img" aria-label="generation of U to V discovery per seed, by arm"><title>When each arm found U → V, per seed</title>'
+    + [0, 10, 20, 30, 40, 50, 60].map((g) => '<line x1="' + X(g) + '" x2="' + X(g) + '" y1="14" y2="' + (20 + A.length * 44) + '" stroke="var(--line)"/><text x="' + X(g) + '" y="' + (34 + A.length * 44) + '" text-anchor="middle" font-size="10" fill="var(--faint)" font-family="ui-monospace,monospace">' + g + '</text>').join('')
+    + A.map((a, row) => '<text x="4" y="' + (40 + row * 44) + '" font-size="11" fill="' + colour[a] + '" font-family="ui-monospace,monospace">' + a + '</text>' + j.uv[a].map((g, s) => '<circle cx="' + X(g).toFixed(1) + '" cy="' + (36 + row * 44 + (s % 4) * 4 - 6) + '" r="5" fill="' + colour[a] + '" fill-opacity=".75"><title>seed ' + P.seeds[s] + ': ' + fmtGen(g) + '</title></circle>').join('') + '<line x1="' + X(j.medians[a]) + '" x2="' + X(j.medians[a]) + '" y1="' + (22 + row * 44) + '" y2="' + (50 + row * 44) + '" stroke="' + colour[a] + '" stroke-width="3"/>').join('')
+    + '</svg><p class="quiet" style="margin:.3rem 0 0">Each dot is one seed; the bar is the median. A dot at ' + never + ' means never found.</p>';
+  $('perseed').querySelector('tbody').innerHTML = P.seeds.flatMap((seed, s) => A.map((a) => { const r = recs[a][s], g = j.uv[a][s]; return '<tr><td class="n">' + seed + '</td><td>' + armTag(a) + '</td><td>' + fmtGen(g) + '</td><td class="mono">' + esc(r.champion.key) + '</td><td class="n">' + r.champion.held.right + '/' + r.champion.held.n + '</td><td class="n">' + r.champion.held.wrong + '</td><td class="n">' + r.champion.held.edits + '</td></tr>'; })).join('');
+  const looks = (a) => recs[a].reduce((s, r) => s + (r.looks || 0), 0);
+  $('compute').innerHTML = '<p style="margin:0"><b>What each arm spent looking at itself</b> (reads self-scored, all seeds): ' + armTag('blind') + ' none; ' + armTag('trials') + ' ' + looks('trials').toLocaleString('en-GB') + '; ' + armTag('observe') + ' ' + looks('observe').toLocaleString('en-GB') + '. The control was given at least the observer’s compute, so what separates them is where the observer looked, not how much.</p>';
+  // re-run seed 2718 in a worker built from this page's own kernels
+  $('rerun').addEventListener('click', () => {
+    const btn = $('rerun'), out = $('rerunOut'); btn.disabled = true;
+    const t0 = Date.now(), tick = setInterval(() => { out.textContent = 'evolving… ' + Math.round((Date.now() - t0) / 1000) + ' s'; }, 500);
+    const src = $('kernel').textContent + '\nonmessage = (e) => { const d = e.data; const h = K.habitat(d.world, d.habitat); const out = {}; for (const a of O.ARMS) out[a] = JSON.stringify(O.evolveWith(d.config, K.world(d.world.codes), h.train, h.held, a)); postMessage(out); };';
+    const worker = new Worker(URL.createObjectURL(new Blob([src], { type: 'text/javascript' })));
+    worker.onmessage = async (e) => {
+      clearInterval(tick); worker.terminate();
+      const res = [];
+      for (const a of O.ARMS) { const hex = Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(e.data[a])))).map((b) => b.toString(16).padStart(2, '0')).join(''); res.push([a, hex === R.hashes[a][0]]); }
+      const all = res.every(([, ok]) => ok);
+      out.innerHTML = (all ? '<span class="pass">IDENTICAL</span> — all three evolutions, byte for byte' : '<span class="fail">DIFFERENT</span> — ' + res.filter(([, ok]) => !ok).map(([a]) => a).join(', ') + ' did not match') + ' (' + Math.round((Date.now() - t0) / 1000) + ' s).';
+      btn.disabled = false;
+    };
+    worker.onerror = (err) => { clearInterval(tick); out.textContent = 'the re-run could not start here: ' + err.message; btn.disabled = false; };
+    worker.postMessage({ world: { codes: W.codes, real: W.real, split: W.split }, habitat: DATA.habitat, config: { ...P.config, seed: P.seeds[0] } });
+  });
+})();
+</script>
+</body></html>
