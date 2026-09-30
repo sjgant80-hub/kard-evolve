@@ -6,13 +6,13 @@
   "proof": {
     "benchmark": "assessor-v0.10",
     "core": "10/10",
-    "hash": "66940580d93bc3f6520683e70aee18a9"
+    "hash": "84346d57eb406d40870d43f715b761dc"
   },
   "behaviour": {
     "gate": "witness",
     "clean": true,
     "score": 1,
-    "source": "evolve.mjs",
+    "source": "evolve.mjs, observe.mjs",
     "skipped": false
   },
   "basis": {
