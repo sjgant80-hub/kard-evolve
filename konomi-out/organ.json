@@ -6,7 +6,7 @@
   "proof": {
     "benchmark": "assessor-v0.10",
     "core": "10/10",
-    "hash": "84346d57eb406d40870d43f715b761dc"
+    "hash": "40c565edbff3be4840c2de599d68c8d7"
   },
   "behaviour": {
     "gate": "witness",
