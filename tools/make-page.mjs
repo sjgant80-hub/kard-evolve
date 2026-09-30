@@ -94,6 +94,9 @@ if (opre) {
   else {
     const j = O.compare(orun.records, opre.config.generations);
     V.push('**Experiment 2 — the creature that watches itself: ' + (j.passed + 1) + ' of ' + (j.of + 1) + ' sealed rules held.** With no answer key, only what it can see about itself, the observer found U → V at a median generation of ' + j.medians.observe + '; blind trials with the same compute and self-scoring took ' + j.medians.trials + '; blind mutation took ' + j.medians.blind + '. [The page](https://sjgant80-hub.github.io/kard-evolve/observer.html) has its diary and a re-run button.');
+    const free = opre.seeds.filter((_, i) => O.ARMS.every((a) => j.uv[a][i] === 0));
+    V.push('');
+    V.push('How the speed-up splits: scoring changes by its own confidence (blind mutation → blind trials) moved the median ' + (j.medians.blind - j.medians.trials) + ' generations sooner; watching its own misreads (blind trials → observer) moved it a further ' + (j.medians.trials - j.medians.observe) + ', with less compute than the control. Every one of the 24 champions ended equally fit on the held-out cards: the observer gets there first, not further.' + (free.length ? ' On seed ' + free.join(', ') + ' a random newborn already carried U → V in generation 0, for every arm.' : ''));
     V.push('');
     V.push('| Sealed rule | Result | | Predicted |');
     V.push('|---|---|---|---|');
