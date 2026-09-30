@@ -1,0 +1,5302 @@
+{
+ "kind": "kard-evolve-run",
+ "v": 1,
+ "sealedIn": "a1f6c435dbe98491a22e092c3d824641db2ed150",
+ "ranAt": "2026-09-30T18:09:59.369Z",
+ "ms": 57158,
+ "recordSha256": "4529a418c273d6d602813c5f36b11d9993c7f275032cf592a6618524fa11df9b",
+ "record": {
+  "ok": true,
+  "history": [
+   {
+    "gen": 0,
+    "size": 48,
+    "best": {
+     "id": 7,
+     "key": "|550",
+     "fitness": 24136,
+     "right": 248,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 23908,
+     "right": 244,
+     "wrong": 0,
+     "refused": 108,
+     "edits": 246,
+     "n": 352
+    },
+    "mean": 18282.92,
+    "genes": [
+     [
+      "NE",
+      2
+     ],
+     [
+      "01",
+      1
+     ],
+     [
+      "1X",
+      1
+     ],
+     [
+      "4Q",
+      1
+     ],
+     [
+      "5K",
+      1
+     ],
+     [
+      "7M",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 1,
+    "size": 48,
+    "best": {
+     "id": 7,
+     "key": "|550",
+     "fitness": 24136,
+     "right": 248,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 23908,
+     "right": 244,
+     "wrong": 0,
+     "refused": 108,
+     "edits": 246,
+     "n": 352
+    },
+    "mean": 23438.75,
+    "genes": [
+     [
+      "EM",
+      4
+     ],
+     [
+      "BH",
+      2
+     ],
+     [
+      "GT",
+      2
+     ],
+     [
+      "QF",
+      2
+     ],
+     [
+      "S0",
+      2
+     ],
+     [
+      "SA",
+      2
+     ]
+    ]
+   },
+   {
+    "gen": 2,
+    "size": 48,
+    "best": {
+     "id": 7,
+     "key": "|550",
+     "fitness": 24136,
+     "right": 248,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 23908,
+     "right": 244,
+     "wrong": 0,
+     "refused": 108,
+     "edits": 246,
+     "n": 352
+    },
+    "mean": 24002.04,
+    "genes": [
+     [
+      "EX",
+      3
+     ],
+     [
+      "E2",
+      2
+     ],
+     [
+      "EM",
+      2
+     ],
+     [
+      "OJ",
+      2
+     ],
+     [
+      "4Q",
+      1
+     ],
+     [
+      "5W",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 3,
+    "size": 48,
+    "best": {
+     "id": 7,
+     "key": "|550",
+     "fitness": 24136,
+     "right": 248,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 23908,
+     "right": 244,
+     "wrong": 0,
+     "refused": 108,
+     "edits": 246,
+     "n": 352
+    },
+    "mean": 24126.25,
+    "genes": [
+     [
+      "OJ",
+      2
+     ],
+     [
+      "E2",
+      1
+     ],
+     [
+      "IV",
+      1
+     ],
+     [
+      "OD",
+      1
+     ],
+     [
+      "SE",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 4,
+    "size": 48,
+    "best": {
+     "id": 7,
+     "key": "|550",
+     "fitness": 24136,
+     "right": 248,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 23908,
+     "right": 244,
+     "wrong": 0,
+     "refused": 108,
+     "edits": 246,
+     "n": 352
+    },
+    "mean": 24136,
+    "genes": [
+     [
+      "IW",
+      1
+     ],
+     [
+      "LX",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 5,
+    "size": 48,
+    "best": {
+     "id": 7,
+     "key": "|550",
+     "fitness": 24136,
+     "right": 248,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 23908,
+     "right": 244,
+     "wrong": 0,
+     "refused": 108,
+     "edits": 246,
+     "n": 352
+    },
+    "mean": 24136,
+    "genes": []
+   },
+   {
+    "gen": 6,
+    "size": 48,
+    "best": {
+     "id": 7,
+     "key": "|550",
+     "fitness": 24136,
+     "right": 248,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 23908,
+     "right": 244,
+     "wrong": 0,
+     "refused": 108,
+     "edits": 246,
+     "n": 352
+    },
+    "mean": 24136,
+    "genes": [
+     [
+      "ID",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 7,
+    "size": 48,
+    "best": {
+     "id": 422,
+     "key": "U7|545",
+     "fitness": 34010,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34242,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 479,
+     "n": 352
+    },
+    "mean": 24341.71,
+    "genes": [
+     [
+      "LM",
+      1
+     ],
+     [
+      "LN",
+      1
+     ],
+     [
+      "LP",
+      1
+     ],
+     [
+      "OK",
+      1
+     ],
+     [
+      "U7",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 8,
+    "size": 48,
+    "best": {
+     "id": 422,
+     "key": "U7|545",
+     "fitness": 34010,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34242,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 479,
+     "n": 352
+    },
+    "mean": 24545.33,
+    "genes": [
+     [
+      "U7",
+      2
+     ],
+     [
+      "OZ",
+      1
+     ],
+     [
+      "Q5",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 9,
+    "size": 48,
+    "best": {
+     "id": 422,
+     "key": "U7|545",
+     "fitness": 34010,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34242,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 479,
+     "n": 352
+    },
+    "mean": 25356.17,
+    "genes": [
+     [
+      "U7",
+      6
+     ],
+     [
+      "Q5",
+      3
+     ],
+     [
+      "E8",
+      1
+     ],
+     [
+      "IA",
+      1
+     ],
+     [
+      "V2",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 10,
+    "size": 48,
+    "best": {
+     "id": 422,
+     "key": "U7|545",
+     "fitness": 34010,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34242,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 479,
+     "n": 352
+    },
+    "mean": 26777.42,
+    "genes": [
+     [
+      "U7",
+      12
+     ],
+     [
+      "Q5",
+      4
+     ],
+     [
+      "I0",
+      1
+     ],
+     [
+      "JP",
+      1
+     ],
+     [
+      "TS",
+      1
+     ],
+     [
+      "UM",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 11,
+    "size": 48,
+    "best": {
+     "id": 422,
+     "key": "U7|545",
+     "fitness": 34010,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34242,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 479,
+     "n": 352
+    },
+    "mean": 28513.46,
+    "genes": [
+     [
+      "U7",
+      17
+     ],
+     [
+      "Q5",
+      3
+     ],
+     [
+      "UM",
+      3
+     ],
+     [
+      "TS",
+      2
+     ],
+     [
+      "BV",
+      1
+     ],
+     [
+      "J0",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 12,
+    "size": 48,
+    "best": {
+     "id": 422,
+     "key": "U7|545",
+     "fitness": 34010,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34242,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 479,
+     "n": 352
+    },
+    "mean": 31916.13,
+    "genes": [
+     [
+      "U7",
+      24
+     ],
+     [
+      "UM",
+      6
+     ],
+     [
+      "U2",
+      2
+     ],
+     [
+      "0X",
+      1
+     ],
+     [
+      "BH",
+      1
+     ],
+     [
+      "KF",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 13,
+    "size": 48,
+    "best": {
+     "id": 422,
+     "key": "U7|545",
+     "fitness": 34010,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34242,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 479,
+     "n": 352
+    },
+    "mean": 33368.79,
+    "genes": [
+     [
+      "U7",
+      28
+     ],
+     [
+      "UN",
+      3
+     ],
+     [
+      "U2",
+      2
+     ],
+     [
+      "UQ",
+      2
+     ],
+     [
+      "UZ",
+      2
+     ],
+     [
+      "IV",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 14,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34021.17,
+    "genes": [
+     [
+      "U7",
+      21
+     ],
+     [
+      "UN",
+      3
+     ],
+     [
+      "U1",
+      2
+     ],
+     [
+      "UC",
+      2
+     ],
+     [
+      "UJ",
+      2
+     ],
+     [
+      "UM",
+      2
+     ]
+    ]
+   },
+   {
+    "gen": 15,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34049.08,
+    "genes": [
+     [
+      "U7",
+      14
+     ],
+     [
+      "UV",
+      7
+     ],
+     [
+      "UM",
+      5
+     ],
+     [
+      "U1",
+      4
+     ],
+     [
+      "UJ",
+      4
+     ],
+     [
+      "UH",
+      3
+     ]
+    ]
+   },
+   {
+    "gen": 16,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34060.33,
+    "genes": [
+     [
+      "UV",
+      10
+     ],
+     [
+      "U7",
+      8
+     ],
+     [
+      "UJ",
+      4
+     ],
+     [
+      "U9",
+      3
+     ],
+     [
+      "UH",
+      3
+     ],
+     [
+      "UM",
+      3
+     ]
+    ]
+   },
+   {
+    "gen": 17,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34116.17,
+    "genes": [
+     [
+      "UV",
+      20
+     ],
+     [
+      "U7",
+      5
+     ],
+     [
+      "U2",
+      2
+     ],
+     [
+      "U6",
+      2
+     ],
+     [
+      "U9",
+      2
+     ],
+     [
+      "UM",
+      2
+     ]
+    ]
+   },
+   {
+    "gen": 18,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34169.33,
+    "genes": [
+     [
+      "UV",
+      30
+     ],
+     [
+      "U7",
+      3
+     ],
+     [
+      "U6",
+      2
+     ],
+     [
+      "U8",
+      2
+     ],
+     [
+      "UW",
+      2
+     ],
+     [
+      "I9",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 19,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34218.13,
+    "genes": [
+     [
+      "UV",
+      40
+     ],
+     [
+      "U3",
+      2
+     ],
+     [
+      "U9",
+      2
+     ],
+     [
+      "E0",
+      1
+     ],
+     [
+      "I4",
+      1
+     ],
+     [
+      "IE",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 20,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34255.75,
+    "genes": [
+     [
+      "UV",
+      45
+     ],
+     [
+      "I4",
+      1
+     ],
+     [
+      "OQ",
+      1
+     ],
+     [
+      "OW",
+      1
+     ],
+     [
+      "U9",
+      1
+     ],
+     [
+      "UB",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 21,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L0",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 22,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LS",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 23,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L9",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 24,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "OD",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 25,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "O4",
+      1
+     ],
+     [
+      "OH",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 26,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LM",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 27,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 28,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IT",
+      1
+     ],
+     [
+      "LA",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 29,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IM",
+      1
+     ],
+     [
+      "L4",
+      1
+     ],
+     [
+      "LB",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 30,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "ID",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 31,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L7",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 32,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L0",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 33,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IR",
+      1
+     ],
+     [
+      "OH",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 34,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L6",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 35,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LP",
+      1
+     ],
+     [
+      "O0",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 36,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I9",
+      1
+     ],
+     [
+      "LP",
+      1
+     ],
+     [
+      "OG",
+      1
+     ],
+     [
+      "OX",
+      1
+     ],
+     [
+      "OZ",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 37,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 38,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LK",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 39,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 40,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I4",
+      1
+     ],
+     [
+      "OW",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 41,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L4",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 42,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I7",
+      1
+     ],
+     [
+      "IN",
+      1
+     ],
+     [
+      "IP",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 43,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LN",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 44,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IK",
+      1
+     ],
+     [
+      "OE",
+      1
+     ],
+     [
+      "OT",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 45,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LB",
+      1
+     ],
+     [
+      "LF",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 46,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IH",
+      1
+     ],
+     [
+      "LR",
+      1
+     ],
+     [
+      "LZ",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 47,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L4",
+      1
+     ],
+     [
+      "O7",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 48,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 49,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "OH",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 50,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LY",
+      2
+     ],
+     [
+      "LH",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 51,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 52,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IA",
+      1
+     ],
+     [
+      "L3",
+      1
+     ],
+     [
+      "OJ",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 53,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L7",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 54,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LG",
+      1
+     ],
+     [
+      "OT",
+      1
+     ],
+     [
+      "OY",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 55,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IN",
+      1
+     ],
+     [
+      "LW",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 56,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LP",
+      1
+     ],
+     [
+      "OD",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 57,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L8",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 58,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IF",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 59,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IW",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 60,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L1",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 61,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LH",
+      1
+     ],
+     [
+      "LJ",
+      1
+     ],
+     [
+      "LX",
+      1
+     ],
+     [
+      "ON",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 62,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I3",
+      1
+     ],
+     [
+      "LC",
+      1
+     ],
+     [
+      "ON",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 63,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LQ",
+      1
+     ],
+     [
+      "LS",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 64,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IS",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 65,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "OW",
+      1
+     ],
+     [
+      "OX",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 66,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "O0",
+      1
+     ],
+     [
+      "OB",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 67,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L1",
+      1
+     ],
+     [
+      "OC",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 68,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L1",
+      1
+     ],
+     [
+      "LR",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 69,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IZ",
+      1
+     ],
+     [
+      "L0",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 70,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "O6",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 71,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I3",
+      1
+     ],
+     [
+      "O7",
+      1
+     ],
+     [
+      "OF",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 72,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IY",
+      2
+     ]
+    ]
+   },
+   {
+    "gen": 73,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 74,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "O2",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 75,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L4",
+      1
+     ],
+     [
+      "LH",
+      1
+     ],
+     [
+      "OW",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 76,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IH",
+      1
+     ],
+     [
+      "OS",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 77,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L4",
+      1
+     ],
+     [
+      "LQ",
+      1
+     ],
+     [
+      "OQ",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 78,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LB",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 79,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L1",
+      1
+     ],
+     [
+      "LH",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 80,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IK",
+      1
+     ],
+     [
+      "O1",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 81,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I5",
+      1
+     ],
+     [
+      "IN",
+      1
+     ],
+     [
+      "L0",
+      1
+     ],
+     [
+      "L3",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 82,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "OG",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 83,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "OH",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 84,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 85,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 86,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 87,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IC",
+      1
+     ],
+     [
+      "IK",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 88,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 89,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I6",
+      1
+     ],
+     [
+      "I7",
+      1
+     ],
+     [
+      "ID",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 90,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LK",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 91,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L0",
+      1
+     ],
+     [
+      "L2",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 92,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 93,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L3",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 94,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IF",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 95,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "OY",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 96,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "O2",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 97,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IS",
+      1
+     ],
+     [
+      "IZ",
+      1
+     ],
+     [
+      "ON",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 98,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IS",
+      1
+     ],
+     [
+      "O0",
+      1
+     ],
+     [
+      "OS",
+      1
+     ],
+     [
+      "OX",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 99,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 100,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 101,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LS",
+      1
+     ],
+     [
+      "ON",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 102,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "ON",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 103,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L4",
+      1
+     ],
+     [
+      "O4",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 104,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IA",
+      1
+     ],
+     [
+      "IG",
+      1
+     ],
+     [
+      "IV",
+      1
+     ],
+     [
+      "O6",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 105,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I8",
+      1
+     ],
+     [
+      "OG",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 106,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I8",
+      1
+     ],
+     [
+      "OC",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 107,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LZ",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 108,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 109,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L8",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 110,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "OQ",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 111,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I5",
+      1
+     ],
+     [
+      "IM",
+      1
+     ],
+     [
+      "IT",
+      1
+     ],
+     [
+      "IX",
+      1
+     ],
+     [
+      "OG",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 112,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IS",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 113,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LV",
+      1
+     ],
+     [
+      "LZ",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 114,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 115,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 116,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IS",
+      1
+     ],
+     [
+      "OY",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 117,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 118,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LG",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 119,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 120,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IE",
+      1
+     ],
+     [
+      "IH",
+      1
+     ],
+     [
+      "IR",
+      1
+     ],
+     [
+      "LP",
+      1
+     ],
+     [
+      "LZ",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 121,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I5",
+      1
+     ],
+     [
+      "IR",
+      1
+     ],
+     [
+      "O2",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 122,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 123,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I0",
+      1
+     ],
+     [
+      "OF",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 124,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IG",
+      2
+     ]
+    ]
+   },
+   {
+    "gen": 125,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 126,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IM",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 127,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I2",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 128,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IK",
+      1
+     ],
+     [
+      "L2",
+      1
+     ],
+     [
+      "O4",
+      1
+     ],
+     [
+      "O9",
+      1
+     ],
+     [
+      "OG",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 129,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 130,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L1",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 131,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I4",
+      1
+     ],
+     [
+      "L5",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 132,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IN",
+      1
+     ],
+     [
+      "O0",
+      1
+     ],
+     [
+      "OG",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 133,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L1",
+      1
+     ],
+     [
+      "OV",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 134,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LB",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 135,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I1",
+      1
+     ],
+     [
+      "LS",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 136,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L8",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 137,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "OJ",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 138,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 139,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "I6",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 140,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IQ",
+      1
+     ],
+     [
+      "LR",
+      1
+     ],
+     [
+      "O5",
+      1
+     ],
+     [
+      "OM",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 141,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 142,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "L1",
+      1
+     ],
+     [
+      "LB",
+      1
+     ],
+     [
+      "LK",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 143,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LR",
+      1
+     ],
+     [
+      "O1",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 144,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IM",
+      1
+     ],
+     [
+      "LC",
+      1
+     ],
+     [
+      "OQ",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 145,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "LC",
+      1
+     ],
+     [
+      "LY",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 146,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ]
+    ]
+   },
+   {
+    "gen": 147,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IM",
+      1
+     ],
+     [
+      "IP",
+      1
+     ],
+     [
+      "LB",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 148,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "IJ",
+      1
+     ],
+     [
+      "LA",
+      1
+     ],
+     [
+      "LV",
+      1
+     ],
+     [
+      "O3",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 149,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "ID",
+      1
+     ],
+     [
+      "L5",
+      1
+     ]
+    ]
+   },
+   {
+    "gen": 150,
+    "size": 48,
+    "best": {
+     "id": 958,
+     "key": "UV|515",
+     "fitness": 34278,
+     "right": 352,
+     "wrong": 0
+    },
+    "held": {
+     "fitness": 34462,
+     "right": 352,
+     "wrong": 0,
+     "refused": 0,
+     "edits": 369,
+     "n": 352
+    },
+    "mean": 34278,
+    "genes": [
+     [
+      "UV",
+      48
+     ],
+     [
+      "OS",
+      1
+     ]
+    ]
+   }
+  ],
+  "memo": 54684,
+  "champion": {
+   "id": 958,
+   "gen": 14,
+   "genome": {
+    "folds": [
+     [
+      "U",
+      "V"
+     ]
+    ],
+    "maxEdits": 5,
+    "margin": 1,
+    "maxUnknown": 5
+   },
+   "key": "UV|515",
+   "train": {
+    "fitness": 34278,
+    "right": 352,
+    "wrong": 0,
+    "refused": 0,
+    "edits": 461,
+    "n": 352
+   },
+   "held": {
+    "fitness": 34462,
+    "right": 352,
+    "wrong": 0,
+    "refused": 0,
+    "edits": 369,
+    "n": 352
+   }
+  },
+  "gen0": {
+   "id": 7,
+   "genome": {
+    "folds": [],
+    "maxEdits": 5,
+    "margin": 5,
+    "maxUnknown": 0
+   },
+   "key": "|550",
+   "train": {
+    "fitness": 24136,
+    "right": 248,
+    "wrong": 0,
+    "refused": 104,
+    "edits": 332,
+    "n": 352
+   },
+   "held": {
+    "fitness": 23908,
+    "right": 244,
+    "wrong": 0,
+    "refused": 108,
+    "edits": 246,
+    "n": 352
+   }
+  },
+  "line": [
+   {
+    "id": 958,
+    "gen": 14,
+    "key": "UV|515"
+   },
+   {
+    "id": 887,
+    "gen": 13,
+    "key": "UR|515"
+   },
+   {
+    "id": 795,
+    "gen": 12,
+    "key": "UR|522"
+   },
+   {
+    "id": 750,
+    "gen": 11,
+    "key": "UC|522"
+   },
+   {
+    "id": 595,
+    "gen": 9,
+    "key": "Q5.U7|564"
+   },
+   {
+    "id": 509,
+    "gen": 8,
+    "key": "Q5.U7|540"
+   },
+   {
+    "id": 422,
+    "gen": 7,
+    "key": "U7|545"
+   },
+   {
+    "id": 377,
+    "gen": 6,
+    "key": "|645"
+   },
+   {
+    "id": 310,
+    "gen": 5,
+    "key": "|665"
+   },
+   {
+    "id": 286,
+    "gen": 4,
+    "key": "|646"
+   },
+   {
+    "id": 19,
+    "gen": 0,
+    "key": "|642"
+   }
+  ]
+ },
+ "judged": {
+  "ok": true,
+  "rules": [
+   {
+    "id": "beats-gen0",
+    "pass": true,
+    "value": "34462 vs 23908"
+   },
+   {
+    "id": "u-to-v",
+    "pass": true,
+    "value": "reads U as V; accepts up to 5 edits when no other card is within 1 more, with at most 5 unreadable"
+   },
+   {
+    "id": "never-wrong",
+    "pass": true,
+    "value": "0 wrong of 352"
+   },
+   {
+    "id": "real-held",
+    "pass": true,
+    "value": "96 vs 94 of 96, 0 wrong"
+   }
+  ],
+  "passed": 4,
+  "of": 4,
+  "champReal": {
+   "fitness": 9572,
+   "right": 96,
+   "wrong": 0,
+   "refused": 0,
+   "edits": 14,
+   "n": 96
+  },
+  "specReal": {
+   "fitness": 9376,
+   "right": 94,
+   "wrong": 0,
+   "refused": 2,
+   "edits": 12,
+   "n": 96
+  }
+ },
+ "habitat": {
+  "table": [
+   [
+    "V",
+    "U",
+    5
+   ],
+   [
+    "G",
+    "6",
+    3
+   ],
+   [
+    "Q",
+    "0",
+    3
+   ],
+   [
+    "E",
+    "8",
+    1
+   ],
+   [
+    "Q",
+    "D",
+    1
+   ],
+   [
+    "Z",
+    "2",
+    1
+   ]
+  ],
+  "train": 352,
+  "held": 352,
+  "realHeld": 96
+ }
+}

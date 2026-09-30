@@ -111,15 +111,24 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);color:v
     return;
   }
 
-  const rec = R.record, ch = rec.champion, g0 = rec.gen0;
+const storyOf = (rec, P) => {
+  const hasUV = (k) => k.split('|')[0].split('.').includes('UV');
+  const carriers = (x) => (x.genes.find(([f]) => f === 'UV') || ['UV', 0])[1];
+  const firstBest = rec.history.find((x) => hasUV(x.best.key));
+  const half = rec.history.find((x) => carriers(x) * 2 >= P);
+  const all = rec.history.find((x) => carriers(x) === P);
+  const perfect = rec.history.find((x) => x.held.right === x.held.n);
+  const walk = [];
+  for (const s of [...rec.line].reverse()) { const u = s.key.split('|')[0].split('.').find((f) => f[0] === 'U'); if (u && walk[walk.length - 1] !== u) walk.push(u); }
+  return { firstBest: firstBest ? firstBest.gen : null, half: half ? half.gen : null, all: all ? all.gen : null, perfect: perfect ? perfect.gen : null, walk };
+};
+  const rec = R.record, ch = rec.champion, g0 = rec.gen0, st = storyOf(rec, P.config.population);
   const j = K.judge(rec, h, w);
   const repro = { id: 'reproducible', pass: true, value: 'CI re-runs it on every push — and you can, below' };
   const rules = [...j.rules, repro];
-  const uvGen = rec.history.find((x) => x.genes.some(([f]) => f === 'UV'));
-  const uvBest = rec.history.find((x) => x.best.key.split('|')[0].split('.').includes('UV'));
   $('verdict').innerHTML = '<p class="big" style="margin-top:0"><b>' + (j.passed + 1) + ' of ' + (j.of + 1) + ' sealed rules held.</b> After ' + P.config.generations + ' generations, the champion ' + esc(K.describe(ch.genome)) + '.</p>'
     + '<p class="quiet">On the held-out cards it resolves <span class="stat">' + ch.held.right + ' of ' + ch.held.n + '</span> with <span class="stat">' + ch.held.wrong + '</span> wrong; generation 0’s best resolves ' + g0.held.right + '. '
-    + (uvGen ? 'The fold <span class="gene uv">U &rarr; V</span> first appeared in the population in generation <span class="stat">' + uvGen.gen + '</span>' + (uvBest ? ' and was in the best creature from generation <span class="stat">' + uvBest.gen + '</span>' : '') + '. Nothing told it to look.' : 'The fold U &rarr; V never appeared.') + '</p>';
+    + '</p>' + (st.firstBest !== null ? '<p class="quiet">Nothing told it to look. Along the champion’s own line the fold on U was re-aimed ' + st.walk.map(geneTag).join(' then ') + ', reaching <span class="gene uv">U &rarr; V</span> in generation <span class="stat">' + st.firstBest + '</span>. Then it swept: half of the ' + P.config.population + ' creatures carried it by generation <span class="stat">' + st.half + '</span>, all of them by generation <span class="stat">' + st.all + '</span>. Every held-out card was already being found by generation ' + st.perfect + ', by reading U as anything and accepting more corrections; what selection bought after that was sureness, because U &rarr; V saves a correction on every V the model reads as U.</p>' : '<p class="quiet">The fold U &rarr; V never reached the best creature.</p>');
   $('rules').querySelector('tbody').innerHTML = rules.map((r) => '<tr><td>' + esc(P.rules.find((x) => x.id === r.id).rule) + '</td><td>' + esc(r.value) + '</td><td class="' + (r.pass ? 'pass' : 'fail') + '">' + (r.pass ? 'PASS' : 'FAIL') + '</td><td class="quiet">' + esc(P.predictions[r.id]) + '</td></tr>').join('');
 
   // the champion's face, drawn from its genes: a limb per fold, spines for the edits it will accept, eyes set by its margin
@@ -144,12 +153,12 @@ footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);color:v
   const Hs = rec.history, G = Hs.length - 1;
   const X = (g) => 40 + (g / G) * 580, Y = (p) => 200 - p * 180;
   const path = (f) => Hs.map((x, i) => (i ? 'L' : 'M') + X(x.gen).toFixed(1) + ' ' + Y(f(x)).toFixed(1)).join(' ');
-  const trainN = Hs[0].best.right + 0, hn = Hs[0].held.n;
+  const hn = Hs[0].held.n;
   const tr = (x) => x.best.right / h.train.length, hd = (x) => x.held.right / hn;
   $('curve').innerHTML = '<svg viewBox="0 0 640 230" role="img" aria-label="best creature per generation: cards resolved on training and held-out"><title>Cards resolved by the best creature, per generation</title>'
     + [0, 0.25, 0.5, 0.75, 1].map((p) => '<line x1="40" x2="620" y1="' + Y(p) + '" y2="' + Y(p) + '" stroke="var(--line)"/><text x="34" y="' + (Y(p) + 4) + '" text-anchor="end" font-size="10" fill="var(--faint)" font-family="ui-monospace,monospace">' + (p * 100) + '%</text>').join('')
     + '<path d="' + path(tr) + '" fill="none" stroke="var(--gold)" stroke-width="2"/><path d="' + path(hd) + '" fill="none" stroke="var(--v)" stroke-width="2" stroke-dasharray="5 3"/>'
-    + (uvGen ? '<line x1="' + X(uvGen.gen) + '" x2="' + X(uvGen.gen) + '" y1="20" y2="200" stroke="var(--v)" stroke-opacity=".5"/><text x="' + (X(uvGen.gen) + 4) + '" y="30" font-size="10" fill="var(--v)" font-family="ui-monospace,monospace">U→V appears</text>' : '')
+    + (st.firstBest !== null ? '<line x1="' + X(st.firstBest) + '" x2="' + X(st.firstBest) + '" y1="20" y2="200" stroke="var(--v)" stroke-opacity=".5"/><text x="' + (X(st.firstBest) + 4) + '" y="30" font-size="10" fill="var(--v)" font-family="ui-monospace,monospace">U→V in the best creature</text>' : '')
     + '<text x="40" y="222" font-size="10" fill="var(--faint)" font-family="ui-monospace,monospace">generation 0</text><text x="620" y="222" text-anchor="end" font-size="10" fill="var(--faint)" font-family="ui-monospace,monospace">' + G + '</text></svg>'
     + '<p class="quiet" style="margin:.3rem 0 0"><span style="color:var(--gold)">&#9644;</span> training (' + h.train.length + ' reads) · <span style="color:var(--v)">&#9476;</span> held out (' + hn + ' reads, never seen by selection): ' + pct(Hs[0].held.right, hn) + ' in generation 0 &rarr; ' + pct(Hs[G].held.right, hn) + ' in generation ' + G + '.</p>';
   $('popn').textContent = String(P.config.population);
